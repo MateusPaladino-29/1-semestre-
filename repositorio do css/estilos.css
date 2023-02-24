@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(43, 226, 226, 0.37);
+}
+
+p{
+    color: rgb(160, 95, 95);
+}
+
+#segundo{
+    background-color: rgb(193, 179, 245);
+    color: brown;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 50px;
+
+}
+
+.diferente {
+    background-color: rgb(221, 179, 245);
+    color: rgb(243, 7, 7);
+    border: 2px solid rgb(255, 0, 191);
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+
+
+}

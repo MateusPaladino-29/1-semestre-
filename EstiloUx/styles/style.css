@@ -10,10 +10,15 @@ body{
     color: gray;
 
     background-color: rgb(255, 255, 255);
+
+    margin: 0px;
+
 }
 
 header{
-    background-color:gray
+    background-color:gray;
+ 
+    
 }
 
 header h1 #logoux{
@@ -24,15 +29,45 @@ header h1 #logoux{
     font-size: 30px;
 }
 
+header .grid-layout{
+    width: 80%;
+    margin: 0 auto; 
+
+
+   
+
+}
+
+header .header-flex{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 2px;
+    align-items: center;
+
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+
 header h1{
     color: white;
     font-family: 'Titillium Web', sans-serif;
     text-transform: lowercase;
 }
 
-header .grid-layout{
-    width: 80%;
-    margin: 0 auto;
-    background-color: yellowgreen;
 
-}
