@@ -106,3 +106,17 @@ main .coluna2 article{
 
 /* footer */
 
+footer .grid-layout{
+
+    background-color: black;
+    color: white;
+    padding-bottom: 15px;
+}
+
+footer .display-flex{
+
+    display: flex;
+    
+
+}
+
