@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+  
+  /* reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F9003D;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+
+/* main */
+
+main {
+    background-image: url('assets/imagem-fundo-banner.png');
+    display: flex;
+    align-items: center;
+    height: 740px;
+}
+
+#banner {
+    width: 545px;
+}
+
+#banner h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 96px;
+}
