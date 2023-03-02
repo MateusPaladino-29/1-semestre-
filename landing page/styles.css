@@ -9,6 +9,16 @@
     box-sizing: border-box;
 }
 
+.layout-grid{
+
+    width: 80%;
+    max-width: 1400;
+   margin: 0% auto;
+
+}
+
+/* header */
+
 header {
     background-color: #F9003D;
     height: 60px;
@@ -34,19 +44,38 @@ header nav a {
 
 /* main */
 
-main {
-    background-image: url('assets/imagem-fundo-banner.png');
-    display: flex;
-    align-items: center;
+
+/* imagem da main */
+main section{
+    width: 100%;
     height: 740px;
+    background-image: url(./assets/images/imagem-fundo-banner.png);
 }
 
-#banner {
-    width: 545px;
-}
 
-#banner h1 {
+ div h1 {
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 96px;
+    display: flex;
+   padding-top: 150px;
+   padding-bottom: 40px;
+}
+
+div hr{
+    width: 545px;
+    border-color: #ffaf00;
+}
+
+div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    text-transform: uppercase;
+    color: #F9003D;
+    margin-top: 70px;
+}
+
+div img{
+
+    padding-top: 70px;
 }
