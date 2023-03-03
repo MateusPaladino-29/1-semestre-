@@ -140,14 +140,14 @@ div #lorem {
 
 /* terceira section */
 
-section #informa {
-    height: 193px;
-    width: 100%;
-}
-
 div .info {
     width: 288px;
     height: 34px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
+}
+
+.info {
+    background-image: url(./assets/images/imagem-fundo-info.png);
+    height: 200px;
 }
