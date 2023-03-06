@@ -10,7 +10,7 @@
 
 .layout-grid {
     width: 80%;
-    max-width: 1400;
+    max-width: 1400px;
     margin: 0% auto;
 }
 
@@ -132,22 +132,91 @@ div #lorem {
     display: flex;
 }
 
-.text {
-    display: table-column-group;
+.textinho {
+    display: column;
     padding-left: 100px;
 }
 
 
 /* terceira section */
 
-div .info {
-    width: 288px;
-    height: 34px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
-}
+
 
 .info {
-    background-image: url(./assets/images/imagem-fundo-info.png);
+    width: 100%;
     height: 200px;
+    background-image: url(./assets/images/imagem-fundo-info.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.info-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+article h3{
+
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+    
+}
+
+article p{
+
+    width: 200px;
+    height: 70px;
+    color: #A259F7;
+    border: 2px solid #A259F7;
+    font-size: 28px;
+   
+    
+}
+
+#desafios{
+
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}        
+
+#sao{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 22px;
+
+}
+
+#dias{
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-top: 20px;
+    font-size: 22px;
+    
+}
+
+/* pre-footer*/
+
+div .endereco{
+    width: 100%;
+    height: 200px;
+    background-image: url(./assets/images/imagem-fundo-endereco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h4{
+
+    width: 418px;
+    height: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+div
+
