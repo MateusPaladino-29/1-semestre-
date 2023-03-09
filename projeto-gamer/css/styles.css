@@ -1,0 +1,24 @@
+/* Imports de fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Quicksand&family=Titillium+Web:ital,wght@0,400;0,900;1,700&display=swap');
+
+
+/* reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+
+
+
+
+header{
+    background-color: #1B1426;
+}
+
