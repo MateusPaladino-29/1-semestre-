@@ -10,15 +10,62 @@
     box-sizing: border-box;
 }
 
-body{
+/* classes genericas */
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.alinhamento-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
     color: white;
 }
 
 
-
-
-
-header{
+/* header */
+header {
     background-color: #1B1426;
+    height: 60px;
+  
 }
 
+
+header .header-top {
+    display: none;
+}
+
+header .menu {
+    display: none;
+}
+
+header .menu-usuarios {
+    display: none;
+}
+
+.header-bottom{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header .menu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100vh;
+    width: 80vw;
+    background-color: black;
+
+      display: flex;
+      flex-direction: column;
+}
