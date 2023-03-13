@@ -1,6 +1,16 @@
 /* Imports de fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Quicksand&family=Titillium+Web:ital,wght@0,400;0,900;1,700&display=swap');
-
+@font-face {
+    font-family: inter;
+    src: url(../assets/fontss/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: QuickSand;
+    src: url(../assets/fontss/Quicksand/OFL.txt;)
+}
+@font-face {
+    font-family: titillium_web;
+    src: url(../assets/fontss/Titillium_Web/OFL.txt);
+}
 
 /* reset CSS */
 
@@ -49,6 +59,9 @@ header .menu-usuarios {
     display: none;
 }
 
+
+
+
 .header-bottom{
     height: 60px;
     display: flex;
@@ -62,10 +75,65 @@ header .menu {
     position: fixed;
     top: 60px;
     left: 0;
-    height: 100vh;
+    height: calc(100vh - 60px);
     width: 80vw;
-    background-color: black;
+    background-image: linear-gradient(to right bottom,  rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
 
       display: flex;
       flex-direction: column;
+     
+      
+}
+
+header .header-bottom nav > a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #f9aa01;
+    padding: 30px 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: inter;
+    text-decoration: none;
+
+}
+
+header .header-bottom nav a:last-of-type{
+    border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais {
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+
+main{
+    height:606px;
+    width: 100%;
+}
+
+
+
+
+main .img{
+    background-image: url(../assets/images/banner.svg);
+    background-repeat: no-repeat;
+    height: 606px;
+    width: 100%;
+    margin: 0;
 }
