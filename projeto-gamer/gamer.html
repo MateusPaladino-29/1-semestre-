@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="PT-BR">
 
@@ -42,26 +41,26 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- menu hamburger visivel apenas no smartphone -->
-                 
-                    <img class="hamburger" src="./assets/icons/Vector (1).svg"
-                        alt="icone de telefone, abre e fecha o menu do celular">
 
-                    <img class="logo" src="./assets/images/logo-gamer.svg"
-                        alt="imagem logotipo gamer com um controle de video game ao centro">
+                <img onclick="mostrarMenu()" src="./assets/icons/Vector (1).svg"
+                    alt="icone de barras, abre e fecha o menu do celular">
 
-                    <img class="pontinho" src="./assets/icons/pontinhos.svg"
-                        alt="icone de reticencias, abre e fecha o menu de usuarios">
-                
+                <img class="logo" src="./assets/images/logo-gamer.svg"
+                    alt="imagem logotipo gamer com um controle de video game ao centro">
+
+                <img onclick="menuUsuarios()" src="./assets/icons/pontinhos.svg"
+                    alt="icone de reticencias, abre e fecha o menu de usuarios">
 
 
-                <nav class="menu">
+
+                <nav class="menu" id="menu">
                     <a href="">Inicio</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipe</a>
                     <a href="">Noticias</a>
 
                     <!-- visivel apenas no mobile -->
-                     
+
                     <a class="phone">
                         <img src="./assets/icons/icone_telefone.svg" alt="icon de contato do telefone">
                         <p>(11) 0900-1010</p>
@@ -83,7 +82,7 @@
                         </a>
                     </div>
                 </nav>
-                <div class="menu-usuarios">
+                <div class="menu-usuarios" id="usuarios">
                     <img src="./assets/icons/perfil.svg" alt="icon com um desenho de perfil">
                     <img src="./assets/icons/bag.svg" alt="icon com um deesenho de bolsa ">
                     <img src="./assets/icons/search.svg" alt="icon com um desenho de lupa de pesquisa">
@@ -94,11 +93,15 @@
     </header>
 
     <main>
-        <div class="img">
-            <img src="./assets/images/logo-gamer.svg" alt="">
-        </div>
+        <section class="banner">
+            <h1>Liga Gamer</h1>
+            <button>sobre</button>
+        </section>
     </main>
 
+   <script src="./js/funcoes.js">
+    
+   </script>
 </body>
 
 </html>
