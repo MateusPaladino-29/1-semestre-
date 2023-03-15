@@ -14,6 +14,15 @@
     src: url(../assets/fontss/Titillium_Web/OFL.txt);
 }
 
+@font-face {
+    font-family: titillium_web_black;
+    src: url(../assets/fontss/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: titillium_web_bold;
+    src: url(../assets/fontss/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
 /* reset CSS */
 
 * {
@@ -172,30 +181,42 @@ main .banner {
     background-image: url(../assets/images/banner.svg);
     background-repeat: no-repeat;
     height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 85px; */
 }
 
 
 
 section h1{
     color: white;
-    font-family: titillium_web;
+    font-family: titillium_web_black;
     font-size: 40px;
+    margin-top: 10px;
+    text-shadow: #fd4255 1px 0 10px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+   
      
 }
 
- div button {
+ section a {
     background-color: #f9aa01;
     color: #1B1426;
     border-radius: 8px;
     width: 171px;
     height:40px ;
+    margin-bottom: 88px;
+    text-transform: capitalize;
 
-    font-family: titillium_web;
+
+
+    font-family: titillium_web_bold;
     font-size: 24px;
 
     display: flex;
@@ -203,3 +224,19 @@ section h1{
     align-items: center;
 }
 
+ .cards{
+    position: relative;
+    background-color: #1B1426;
+    height: 590px;
+    width: 100%;
+    padding-top: 60px;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cs{
+    background-image: url(../assets/images/Card-CSGO.png);
+}
