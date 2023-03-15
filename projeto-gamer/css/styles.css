@@ -185,8 +185,21 @@ section h1{
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+     
 }
 
-section p{
-    
+ div button {
+    background-color: #f9aa01;
+    color: #1B1426;
+    border-radius: 8px;
+    width: 171px;
+    height:40px ;
+
+    font-family: titillium_web;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
