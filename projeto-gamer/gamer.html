@@ -42,13 +42,13 @@
             <div class="layout-grid alinhamento-between-center">
                 <!-- menu hamburger visivel apenas no smartphone -->
 
-                <img onclick="mostrarMenu()" src="./assets/icons/Vector (1).svg"
+                <img  class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/Vector (1).svg"
                     alt="icone de barras, abre e fecha o menu do celular">
 
                 <img class="logo" src="./assets/images/logo-gamer.svg"
                     alt="imagem logotipo gamer com um controle de video game ao centro">
 
-                <img onclick="menuUsuarios()" src="./assets/icons/pontinhos.svg"
+                <img  class="menu-pontinhos" onclick="menuUsuarios()" src="./assets/icons/pontinhos.svg"
                     alt="icone de reticencias, abre e fecha o menu de usuarios">
 
 
@@ -93,7 +93,7 @@
     </header>
 
     <main>
-        <section class="banner">
+        <section class="banner layout-grid">
             <h1>Liga Gamer</h1>
             <a>
                 sobre
@@ -106,21 +106,24 @@
                 <img src="./assets/images/grupo fifa.png" alt="">
             </article>
 
-
-
             <article class="card cs">
-                    <div class="transparente">
-                        <div class="box-paralelograma">
-
-                            <p class="box-paralelograma-p">ultimo jogo</p>
-                        </div>
-                    </div>
-                
+                <img src="./assets/images/grupo cs.png" alt="">
             </article>
         </section>
 
+        <!-- parte do time pro gamer -->
 
-        
+        <section class="time">
+            <div class="texto">
+                <h2>Entre para o time pro gamer</h2>
+
+                <hr>
+            </div>
+
+            
+
+        </section>
+
     </main>
 
     <script src="./js/funcoes.js">

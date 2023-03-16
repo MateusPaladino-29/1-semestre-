@@ -230,6 +230,7 @@ section h1{
     height: 590px;
     width: 100%;
     padding-top: 60px;
+    padding-bottom: 70px;
         
     display: flex;
     flex-direction: column;
@@ -237,6 +238,116 @@ section h1{
     align-items: center;
 }
 
-.cs{
-    background-image: url(../assets/images/Card-CSGO.png);
+section .time{
+    background-color: #f9aa01;
+    height: 1535px;
+    width: 100%;
+
+}
+
+ .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    
+} 
+
+section  h2{
+    color: #1B1426;
+    font-family: titillium_web_black;
+    font-size: 18px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px; */
+}
+
+hr{
+    border: 2px solid #1B1426;
+    width: 204px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets >= 768px */
+@media screen and (min-width: 768px) {}
+
+/* Desktop >= 1200px*/
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .layout-grid{
+        
+            width: 90%;
+            max-width: 1200px;
+            height: 100%;
+            margin: 0 auto;
+        
+    }
+
+    /* esconde os elementos desnecessários */
+    header .header-bottom .menu-hamburger,
+    header .header-bottom .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .mail,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        background-color: red;
+        justify-content: space-between;
+    }
+
+    header .header-bottom .menu-hamburger{
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+    }
+
+    main .banner {
+        background-image: url(../assets/images/Banner_background_1.png);
+        width: 100%;
+    }
+
 }
