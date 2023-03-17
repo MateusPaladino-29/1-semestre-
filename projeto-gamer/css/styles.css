@@ -248,9 +248,9 @@ section{
  .texto{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding-top: 50px;            
     
 } 
 
@@ -258,20 +258,19 @@ section  h2{
     color: #1B1426;
     font-family: titillium_web_black;
     font-size: 18px;
+    padding-bottom: 20px;
 
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px; */
 }
 
 hr{
     border: 2px solid #1B1426;
     width: 204px;
+}
 
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+article .personagem-um{
+    width: 314px;
+    height: 511px;
+    border: 1px solid #1B1426;
 }
 
 
