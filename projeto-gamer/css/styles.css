@@ -6,7 +6,11 @@
 
 @font-face {
     font-family: QuickSand;
-    src: url(../assets/fontss/Quicksand/OFL.txt;)
+    src: url(../assets/fontss/Quicksand/OFL.txt)
+}
+@font-face {
+    font-family: QuickSand-regular;
+    src: url(../assets/fontss/Quicksand/static/Quicksand-Regular.ttf)
 }
 
 @font-face {
@@ -23,6 +27,7 @@
     font-family: titillium_web_bold;
     src: url(../assets/fontss/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
+
 /* reset CSS */
 
 * {
@@ -47,11 +52,11 @@
 }
 
 /* classes genericas */
-.mostrar-menu{
+.mostrar-menu {
     left: 0 !important;
 }
 
-.mostrar-usuarios{
+.mostrar-usuarios {
     right: 0 !important;
 }
 
@@ -68,7 +73,7 @@ header {
     height: 60px;
     z-index: 100;
     background-color: #1B1426;
-   ;
+    ;
 
 }
 
@@ -105,8 +110,8 @@ header .menu {
 
     transition: left 0.7s;
 
-   
-    
+
+
 
 
 }
@@ -157,7 +162,7 @@ header .header-bottom nav .midias-sociais {
     right: -15vw;
     width: 15vw;
     gap: 20px;
-    background-image: linear-gradient(to right bottom, rgb(27, 20, 38,0.9), rgba(27, 20, 38, 0.9));
+    background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.9), rgba(27, 20, 38, 0.9));
     backdrop-filter: blur(45px);
     display: flex;
     flex-direction: column;
@@ -191,26 +196,26 @@ main .banner {
 
 
 
-section h1{
+section h1 {
     color: white;
     font-family: titillium_web_black;
     font-size: 40px;
-    margin-top: 10px;
+    padding-top: 60px;
     text-shadow: #fd4255 1px 0 10px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-   
-     
+
+
 }
 
- section a {
+section a {
     background-color: #f9aa01;
     color: #1B1426;
     border-radius: 8px;
     width: 171px;
-    height:40px ;
+    height: 40px;
     margin-bottom: 88px;
     text-transform: capitalize;
 
@@ -224,37 +229,37 @@ section h1{
     align-items: center;
 }
 
- .cards{
+.cards {
     position: relative;
     background-color: #1B1426;
     height: 590px;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 70px;
-        
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-section{
+section {
     background-color: #f9aa01;
     height: 1535px;
     width: 100%;
 
 }
 
- .texto{
+.texto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;            
-    
-} 
+    padding-top: 50px;
 
-section  h2{
+}
+
+section h2 {
     color: #1B1426;
     font-family: titillium_web_black;
     font-size: 18px;
@@ -262,17 +267,59 @@ section  h2{
 
 }
 
-hr{
+hr {
     border: 2px solid #1B1426;
     width: 204px;
+
 }
 
-article .personagem-um{
+article.personagem-um {
+    position: relative;
     width: 314px;
     height: 511px;
-    border: 1px solid #1B1426;
+    /* border: 1px solid #1B1426; */
+
+
 }
 
+.killjoy-img {
+
+    margin-top: 50px;
+
+}
+
+.killjoy {
+    position: absolute;
+    width: 231px;
+    height: 300px;
+    /* background-color: #1B1426; */
+    top: 135px;
+    right: 0;
+    background: linear-gradient(145.9deg, rgba(110, 49, 236, 0.2) 0%, rgba(45, 7, 109, 0.83));
+    backdrop-filter: blur(7.5px);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.killjoy  h3{
+    font-family: titillium_web_black;
+    font-size: 20px;
+    text-shadow: #C6A5E5 0px 0px 6px;
+    text-transform: uppercase;
+}
+
+div.killjoy p{
+    font-family: QuickSand-regular;
+    font-size: 15px;
+    align-items: center;
+
+
+   
+}
 
 
 
@@ -306,10 +353,10 @@ article .personagem-um{
         max-width: 1200px;
     }
 
-    .layout-grid{
-            width: 100%;
-            max-width: 1200px;
-              
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+
     }
 
     /* esconde os elementos desnecessários */
@@ -322,13 +369,15 @@ article .personagem-um{
     }
 
 
-    header{
+    header {
         position: static;
         height: 140px;
+        width: 100%;
     }
 
-    header .header-top{
-        display: block; 
+    header .header-top {
+        display: block;
+        height: 50px;
         border-bottom: 1px solid #f9aa01;
 
         display: flex;
@@ -337,27 +386,30 @@ article .personagem-um{
         align-items: center;
     }
 
-    .header-top .contatos{
+    .header-top .contatos {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        
+
         width: 410px;
     }
 
-    .header-top .contatos > div{
+    .header-top .contatos>div {
         display: flex;
         gap: 10px;
-       width: 200px;
-       
-        
-        
+        width: 200px;
+
+
+
     }
 
-     .header-top .midias-sociais{
+    header .header-top .midias-sociais {
         display: flex;
-        
+        justify-content: space-between;
+        align-items: center;
+        width: 135px;
+
     }
 
     header .header-bottom nav {
@@ -370,20 +422,20 @@ article .personagem-um{
         justify-content: space-between;
     }
 
-    header .header-bottom nav > a{
+    header .header-bottom nav>a {
         font-size: 14px;
         padding: 0;
         border: none;
     }
 
-    header .header-bottom .menu-usuarios{
+    header .header-bottom .menu-usuarios {
         position: static;
         width: 140px;
         flex-direction: row;
         height: auto;
         background-color: transparent;
         background-image: none;
-        
+
     }
 
     main {
@@ -395,11 +447,13 @@ article .personagem-um{
         background-image: url(../assets/images/Banner_background_1.png);
         background-repeat: no-repeat;
         height: calc(100vh - 60px);
-    
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
+
+
 
 }
