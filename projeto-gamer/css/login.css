@@ -1,0 +1,203 @@
+/* Imports de fonts */
+@font-face {
+    font-family: inter;
+    src: url(../assets/fontss/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: QuickSand;
+    src: url(../assets/fontss/Quicksand/OFL.txt)
+}
+@font-face {
+    font-family: QuickSand-regular;
+    src: url(../assets/fontss/Quicksand/static/Quicksand-Regular.ttf)
+}
+
+@font-face {
+    font-family: titillium_web;
+    src: url(../assets/fontss/Titillium_Web/OFL.txt);
+}
+
+@font-face {
+    font-family: titillium_web_black;
+    src: url(../assets/fontss/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: titillium_web_bold;
+    src: url(../assets/fontss/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/* reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* classes genericas */
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+/* classes genericas */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* classes genericas */
+.mostrar-menu {
+    left: 0 !important;
+}
+
+.mostrar-usuarios {
+    right: 0 !important;
+}
+
+
+body {
+    color: white;
+}
+
+
+/* header */
+header {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    z-index: 100;
+    background-color: #1B1426;
+    ;
+
+}
+
+
+header .header-top {
+    display: none;
+}
+
+header .menu {
+    display: none;
+}
+
+
+.header-bottom {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header .menu {
+    position: fixed;
+    top: 60px;
+    z-index: 101px;
+    left: -80vw;
+    height: calc(100vh - 60px);
+    width: 80vw;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+    display: flex;
+    flex-direction: column;
+
+    transition: left 0.7s;
+
+
+
+
+
+}
+
+header .header-bottom nav>a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #f9aa01;
+    padding: 30px 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: inter;
+    text-decoration: none;
+
+}
+
+header .header-bottom nav a:last-of-type {
+    border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais {
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+
+
+/* parte do segundo menu lateral */
+
+.menu-usuarios {
+    position: fixed;
+    top: 60px;
+    padding: 15px;
+    right: -15vw;
+    width: 15vw;
+    gap: 20px;
+    background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.9), rgba(27, 20, 38, 0.9));
+    backdrop-filter: blur(45px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: right 0.7s;
+
+}
+
+
+
+
+/* main main main main main */
+
+main {
+    background-image: url(../assets/images-login/Banner_Login.png);
+    height: 687px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.form{
+
+    height: 335px;
+    width: 462px;
+
+    border: 2px solid yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Cadastro de Usuarios</h1>
+    <form action="">
+        <label for="nome">nome</label>
+        <input type="text" id="nome" placeholder="Seu nome">
+        <br>
+
+        <label for="idade">idade</label>
+        <input type="number" id="idade" value="">
+        <br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email">
+        <br><br>
+
+        <label for="Estado">Estado</label>
+        <select id="Estado">
+            <option value="">Escolha</option>
+            <option value="sp">São Paulo</option>
+            <option value="bh">Belo Horizonte</option>
+            <option value="ba">Bahia</option>
+            <option value="mg">Minas-gerais</option>
+            <option value="rj">Rio de janeiro</option>
+        </select>
+        <br>
+
+        <label for="senha">senha</label>
+        <input type="password" id="senha">
+        <button type="button" onclick="olhinho()">ver senha</button>
+
+        <br>
+
+
+
+        <br><br>
+        <button>enviar</button>
+
+    </form>
+
+    <script>
+        let senhaExibida = false;
+    
+        function olhinho() {
+            if(senhaExibida == false){
+                document.getElementById("senha").type = "text";
+                senhaExibida = true;
+            } else {
+                document.getElementById("senha").type = "password";
+                senhaExibida = false;
+            }
+        }
+       </script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60vw;
+            height: 40vh;
+            background-color: rgb(16, 0, 16);
+            margin: 0 auto;
+        }
+
+        .linha {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            background-color: transparent;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.2));
+            width: 50%;
+            height: 40px;
+            padding: 5px 10px;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+
+        .linha input {
+            width: 100%;
+            height: 30px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .linha input::placeholder {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <div class="linha">
+            <img src="./assets/icons/user.svg" alt="">
+            <input type="email" placeholder="Digite seu e-mail:">
+        </div>
+    </form>
+</body>
+</html> -->

@@ -314,8 +314,14 @@ div.killjoy  h3{
 
 div.killjoy p{
     font-family: QuickSand-regular;
-    font-size: 15px;
-    align-items: center;
+    font-size: 13px;
+    text-align: justify;
+    padding: 8px;
+    
+    
+   
+
+    
 
 
    
