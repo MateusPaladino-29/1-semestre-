@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="./css/cadastro-equipe.css">
+    <title>cadastro equipe</title>
 </head>
 
 <body>
@@ -98,31 +98,33 @@
     <!-- mainn -->
 
     <main>
-        <section class="section layout-grid">
+        <section class="form layout-grid">
             <form action="" class="form">
-                <div class="titulo">
-                    <hr>
-                    <h1>Login</h1>
-                </div>
 
-              <div class="caixinha">
-                    <div class="email">
-                        <img src="./assets/icons-login/email.svg" alt="">
-                        <input type="email" id="email" placeholder="Digite seu e-mail:">
+                <div class="titulo">
+                    <h1>cadastro de equipes</h1>
+                    <hr>
+                </div>
+                <div class="cadastro">
+                    <div class="id">
+                        <input type="number" id="id" placeholder="digite o id da sua equipe">
                     </div>
 
-                    <div class="senha">
-                        <img src="./assets/icons-login/key.svg" alt="">
-                        <input type="password" placeholder="Digite sua senha:">
-                   
-                </div>
-            </div>
+                    <div class="nome">
+                        <input type="text" id="nome" placeholder="digite o nome da sua equipe">
+                    </div>
 
-                <div class="botao">
-                    <button>Logar</button>
+                    <div class="selecionar">
+                        <input type="file" id="selecionar" placeholder="imagem da equipe">
+                        
+                    </div>
                 </div>
+
+                <div>
+                    <button>cadastro</button>
+                </div>
+
             </form>
-
         </section>
     </main>
 
@@ -131,7 +133,8 @@
         <div class="layout-grid footer-flex">
             <div class="footer-inicio">
                 <img class="logo" src="assets/images/logo-gamer.svg" alt="Ícone gamer">
-                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte a nossa equipe talentosa e altamente comprometida.</p>
+                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte a nossa equipe talentosa e
+                    altamente comprometida.</p>
             </div>
             <div class="redes-sociais">
                 <a class="rede-social-box" href="">

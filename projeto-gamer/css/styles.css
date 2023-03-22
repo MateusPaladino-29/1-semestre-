@@ -174,7 +174,7 @@ header .header-bottom nav .midias-sociais {
 
 
 main {
-    height: 606px;
+    height: 6400px;
     width: 100%;
     /* padding-top: 60px; */
 }
@@ -422,7 +422,7 @@ footer .footer-titulo h2 {
 }
 
 footer .footer-titulo hr {
-    border-bottom: 3px solid var(--cor-secundaria);
+    border-bottom: 3px solid #f9aa01;
     width: calc(100% / 3);
     margin-bottom: 45px;
 }
@@ -459,7 +459,7 @@ footer .redes-sociais .rede-social-box {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background-color: var(--cor-secundaria);
+    background-color: #f9aa01;
 }
 
 footer .links-uteis {
@@ -482,7 +482,7 @@ footer .links-uteis {
 }
 
 .links-uteis .link hr {
-    border: 1px solid var(--cor-secundaria);
+    border: 1px solid #f9aa01;
     width: 10px;
     height: 1px;
 }
@@ -497,7 +497,7 @@ footer .links-uteis {
     font-size: 17px;
 }
 
-.contato .contato-topico { color: var(--cor-secundaria); }
+.contato .contato-topico { color: #f9aa01; }
 .contato .contato-descricao { color: white; }
 
 
@@ -529,7 +529,7 @@ footer .newsletter {
     width: 100%;
     border-radius: 8px;
     border: none;
-    background-color: var(--cor-secundaria);
+    background-color: #f9aa01;
     font-family: Titillium-Web-Bold;
     font-size: 24px;
 }
