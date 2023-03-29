@@ -13,3 +13,18 @@ C:\Users\53282675836\Desktop\1-semestre-\back-end paladino\atividade-idade\obj\D
 C:\Users\53282675836\Desktop\1-semestre-\back-end paladino\atividade-idade\obj\Debug\net7.0\atividade-idade.pdb
 C:\Users\53282675836\Desktop\1-semestre-\back-end paladino\atividade-idade\obj\Debug\net7.0\atividade-idade.genruntimeconfig.cache
 C:\Users\53282675836\Desktop\1-semestre-\back-end paladino\atividade-idade\obj\Debug\net7.0\ref\atividade-idade.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\bin\Debug\net7.0\atividade-idade.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\bin\Debug\net7.0\atividade-idade.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\bin\Debug\net7.0\atividade-idade.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\bin\Debug\net7.0\atividade-idade.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\bin\Debug\net7.0\atividade-idade.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\refint\atividade-idade.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\atividade-idade.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\atividade-idade\obj\Debug\net7.0\ref\atividade-idade.dll

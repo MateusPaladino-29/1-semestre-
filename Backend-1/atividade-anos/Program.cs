@@ -5,7 +5,7 @@ int AnoNasci = int.Parse(Console.ReadLine());
 
 
 
-int Anos = 2023 - AnoNasci ;
+int Anos = DateTime.Now.Year - AnoNasci ;
 
 int Semanas = AnoNasci * 52;
 
