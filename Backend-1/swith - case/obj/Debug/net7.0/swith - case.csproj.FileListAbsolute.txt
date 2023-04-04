@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\bin\Debug\net7.0\swith - case.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\bin\Debug\net7.0\swith - case.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\bin\Debug\net7.0\swith - case.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\bin\Debug\net7.0\swith - case.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\bin\Debug\net7.0\swith - case.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\refint\swith - case.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\swith - case.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\swith - case\obj\Debug\net7.0\ref\swith - case.dll
