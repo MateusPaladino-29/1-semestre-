@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\bin\Debug\net7.0\laço-de-repetição.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\bin\Debug\net7.0\laço-de-repetição.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\bin\Debug\net7.0\laço-de-repetição.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\bin\Debug\net7.0\laço-de-repetição.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\bin\Debug\net7.0\laço-de-repetição.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\refint\laço-de-repetição.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\laço-de-repetição.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\laço-de-repetição\obj\Debug\net7.0\ref\laço-de-repetição.dll
