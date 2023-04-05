@@ -1,62 +1,4 @@
-﻿// int x = 1;
-
-// while (x <= 10)
-// {
-//     Console.WriteLine(x);
-//     x++;    
-// }
-
-
-// bool idadeCerta = false;
-
-// while (idadeCerta == false) //while
-// {
-//     Console.WriteLine($"Qual a idade do Adulto Ney ? ");
-//     int idade = int.Parse(Console.ReadLine());
-
-//     if (idade == 31)
-//     {
-//         idadeCerta = true;
-//     }
-    
-    
-// }
-
-
-
-
-// bool idadeCerta = false;
-
-// do
-// {
-
-// Console.WriteLine($"Qual a idade do Adulto Ney ?");
-// int idade =int.Parse(Console.ReadLine());
-
-// if (idade == 31)
-// {
-//     Console.WriteLine($"Acertou !!S");
-//     idadeCerta = true;
-    
-// }
-// else
-// {
-//     Console.WriteLine($"Errou feio ! Tente novamente ");
-    
-// }
-    
-
-
-// } while (idadeCerta == false);
-
-bool Cadastro1 = true;
-
-bool Cadastro2 = true;
-
-bool Cadastro3 = true;
-
-bool Cadastro4 = true;
-
+﻿
 string vazio = "";
 string nome = "";
 
@@ -68,7 +10,7 @@ do
     if (vazio != nome ) 
     {
         Console.WriteLine($"Certo proximo passo");
-        Cadastro1 = true;
+        
     }
 
     else
@@ -90,7 +32,7 @@ do
     if(idade <=100 && idade >=0)
     {
         Console.WriteLine($"certo, proximo passo");
-        Cadastro2 = true;
+       
         
     }
     
