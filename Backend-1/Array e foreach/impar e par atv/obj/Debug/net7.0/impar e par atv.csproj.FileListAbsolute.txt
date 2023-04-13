@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\bin\Debug\net7.0\impar e par atv.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\bin\Debug\net7.0\impar e par atv.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\bin\Debug\net7.0\impar e par atv.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\bin\Debug\net7.0\impar e par atv.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\bin\Debug\net7.0\impar e par atv.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\refint\impar e par atv.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\impar e par atv.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\impar e par atv\obj\Debug\net7.0\ref\impar e par atv.dll

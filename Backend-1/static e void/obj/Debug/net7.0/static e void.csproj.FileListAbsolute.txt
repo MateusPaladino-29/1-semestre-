@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\bin\Debug\net7.0\static e void.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\bin\Debug\net7.0\static e void.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\bin\Debug\net7.0\static e void.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\bin\Debug\net7.0\static e void.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\bin\Debug\net7.0\static e void.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\refint\static e void.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\static e void.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\obj\Debug\net7.0\ref\static e void.dll

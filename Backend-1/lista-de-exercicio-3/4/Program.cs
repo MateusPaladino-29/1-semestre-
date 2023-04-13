@@ -47,3 +47,5 @@ Porcentagem de homens que responderam Não: {homemnao} homens
 ");
 
 
+
+

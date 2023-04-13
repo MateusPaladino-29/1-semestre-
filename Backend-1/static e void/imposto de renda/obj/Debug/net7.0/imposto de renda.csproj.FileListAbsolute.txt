@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\bin\Debug\net7.0\imposto de renda.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\bin\Debug\net7.0\imposto de renda.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\bin\Debug\net7.0\imposto de renda.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\bin\Debug\net7.0\imposto de renda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\bin\Debug\net7.0\imposto de renda.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\refint\imposto de renda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\imposto de renda.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\static e void\imposto de renda\obj\Debug\net7.0\ref\imposto de renda.dll

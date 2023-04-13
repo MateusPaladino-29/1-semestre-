@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\bin\Debug\net7.0\Array e foreach.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\bin\Debug\net7.0\Array e foreach.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\bin\Debug\net7.0\Array e foreach.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\bin\Debug\net7.0\Array e foreach.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\bin\Debug\net7.0\Array e foreach.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\refint\Array e foreach.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\Array e foreach.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Array e foreach\obj\Debug\net7.0\ref\Array e foreach.dll
