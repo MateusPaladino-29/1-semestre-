@@ -10,49 +10,58 @@
 
 // Ao cadastrar uma passagem ao final o sistema deverá perguntar se gostaria de cadastrar uma nova passagem caso contrário voltar ao menu anterior(S/N).
 
-const int Senha = 123456;
+const int Senha = 123;
 
-static void Login(){
+static void Login()
+{
 
     string Usuario = "";
 
 
-Console.ForegroundColor = ConsoleColor.DarkGreen;
-Console.WriteLine(@$"
+    Console.ForegroundColor = ConsoleColor.Magenta;
+    Console.WriteLine(@$"
 Bem Vindo a nossa agencia de turismo 
     --------------------
     |    LOGIN (1)     |
-    |    Prescione (1) |
+    |                  |
     --------------------
 
 ");
-Console.ResetColor();
+    Console.ResetColor();
 
-Console.ReadLine();
+    Console.ReadLine();
 
-Console.WriteLine($"Informe o nome do usuario");
-Usuario = Console.ReadLine()!;
+    Console.WriteLine($"Informe o nome do usuario");
+    Usuario = Console.ReadLine()!;
 
 SenhaLog:
 
-Console.WriteLine($"informe a Senha:");
-int SenhaLogin = int.Parse(Console.ReadLine());
+    Console.WriteLine($"informe a Senha:");
+    int SenhaLogin = int.Parse(Console.ReadLine()!);
 
-if (Senha == SenhaLogin)
-{
-    Console.WriteLine($"Sua senha esta correta");
-    
-}
-else
-{
-    Console.WriteLine($"Informe a senha novamente esta incorreta!!");
-    
-    goto SenhaLog;
-}
+    if (Senha == SenhaLogin)
+    {
+        Console.WriteLine($"Sua senha esta correta");
+
+    }
+    else
+    {
+        Console.WriteLine($"Informe a senha novamente esta incorreta!!");
+
+        goto SenhaLog;
+    }
 }
 
 Login();
 
+string[] Nome = new string[5];
+string[] origem = new string[5];
+string[] destino = new string[5];
+string[] data = new string[5];
+
+
+
+menu:
 
 Console.WriteLine(@$"
 
@@ -67,10 +76,94 @@ Console.WriteLine(@$"
 
 ");
 
-Console.ReadLine();
+
+Console.WriteLine($"informe qual caminho voce deseja seguir");
+int menu = int.Parse(Console.ReadLine()!);
+
+char continuarPrograma = ' ';
 
 
-string[] Nome = new string[5];
+switch (menu)
+{
+    case 1:
+
+    info:
+        for (var i = 0; i < 5; i++)
+        {
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"Digite seu nome:");
+            Nome[i] = Console.ReadLine()!;
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"Digite sua Origem:");
+            origem[i] = Console.ReadLine()!;
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"infotme seu destino:");
+            destino[i] = Console.ReadLine()!;
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Informe a data do seu voo: dd/mm/nn");
+            data[i] = Console.ReadLine()!;
+            Console.ResetColor();
+        }
+
+
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"Deseja cadastrar uma nova passagem? [s/n]");
+        continuarPrograma = char.Parse(Console.ReadLine()!.ToUpper());
+
+        Console.ResetColor();
+
+        if (continuarPrograma == 'S')
+        {
+            goto info;
+        }
+
+        else { goto menu; };
+
+
+    case 2:
+        for (var i = 0; i < 5; i++)
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(@$"{i + 1}º Seu nome: {Nome[i]}");
+            Console.ResetColor();
+
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"{i + 1}º Sua origem: {origem[i]} ");
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"{i + 1}º Seu destino: {destino[i]} ");
+            Console.ResetColor();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{i + 1}º Data do Voo: {data[i]}");
+            Console.ResetColor();
+
+        }
+        break;
+
+
+    case 0:
+
+        Environment.Exit(0);
+
+        break;
+
+
+    default:
+        break;
+}
+
+
+
 
 
 
