@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\bin\Debug\net7.0\CadastroAluno.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\bin\Debug\net7.0\CadastroAluno.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\bin\Debug\net7.0\CadastroAluno.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\bin\Debug\net7.0\CadastroAluno.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\bin\Debug\net7.0\CadastroAluno.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\refint\CadastroAluno.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\CadastroAluno.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Cadastro\obj\Debug\net7.0\ref\CadastroAluno.dll
