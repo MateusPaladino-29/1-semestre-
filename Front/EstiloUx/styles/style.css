@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:ital,wght@0,200;1,600&display=swap');
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+   color: black;
+   background-color: #edeced;
+    margin: 0px;
+
+}
+
+header{
+    background-color:#676767;
+}
+
+header h1 #logoux{
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+}
+    /* classes genéricas */
+ .grid-layout{
+    width: 80%;
+    margin: 0 auto; 
+
+}
+
+/* modificado a  */
+header .header-flex{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav{
+
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 2px;
+    align-items: center;
+
+}
+/* modificado os links da nav */
+header nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+/* modificado a cor do titulo h1 */
+header h1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: lowercase;
+}
+
+
+
+/* *****main***** */
+
+main #lapis{
+    width: 100%;
+}
+
+main{
+    /* border-bottom: blue solid; */
+    padding-top: 20px;
+    
+}
+
+/* classe da coluna main */
+main .colunas-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* section */
+main .coluna1{
+    width: 75%;
+    background-color: white;
+}
+
+/* aside junto com articles*/
+main .coluna2{
+    width: 23%;
+}
+
+main .coluna2 article{
+
+    background-color: white;
+}
+
+
+
+
+/* footer */
+
+footer .grid-layout{
+
+    background-color: black;
+    color: white;
+    padding-bottom: 15px;
+}
+
+footer .display-flex{
+
+    display: flex;
+    
+
+}
+

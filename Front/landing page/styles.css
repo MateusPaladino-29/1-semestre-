@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0% auto;
+}
+
+
+/* header */
+
+header #menu-burger {
+    display: none;
+}
+
+header {
+    background-color: #F9003D;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+
+/* main */
+
+
+/* imagem da main */
+
+.pre-footer {
+    width: 100%;
+    height: 598px;
+    background-image: url(./assets/images/imagem-fundo-endereco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 96px;
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+
+/* linha da primeira main */
+
+div hr {
+    width: 545px;
+    border-color: #ffaf00;
+}
+
+div p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    text-transform: uppercase;
+    color: #F9003D;
+    margin-top: 50px;
+}
+
+div img {
+    padding-top: 40px;
+}
+
+
+/* segunda section */
+
+section {
+    background-color: #080324;
+    padding-top: 40px;
+}
+
+h2 {
+    color: #F9003D;
+    width: 384px;
+    height: 77px;
+    padding-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+}
+
+#imagem {
+    width: 491px;
+    height: 476px;
+}
+
+div #participantes {
+    color: white;
+    width: 288px;
+    height: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+div #grupos {
+    width: 557px;
+    height: 154px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+div #lorem {
+    width: 592px;
+    height: 252px;
+    font-family: url(./Open\ Sans\ -\ Google\ Fonts.html);
+    font-size: 18px;
+    color: white;
+}
+
+.text-geral {
+    display: flex;
+}
+
+.textinho {
+    display: column;
+    padding-left: 100px;
+}
+
+
+/* terceira section */
+
+
+
+.info {
+    width: 100%;
+    height: 200px;
+    background-image: url(./assets/images/imagem-fundo-info.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+article h3 {
+
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+
+}
+
+article p {
+
+    width: 200px;
+    height: 70px;
+    color: #A259F7;
+    border: 2px solid #A259F7;
+    font-size: 28px;
+
+
+}
+
+#desafios {
+
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#sao {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 22px;
+
+}
+
+#dias {
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-top: 20px;
+    font-size: 22px;
+
+}
+
+/* pre-footer*/
+
+div .endereco {
+    width: 100%;
+    height: 740px;
+    background-image: url(./assets/images/imagem-fundo-endereco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h4 {
+
+    width: 418px;
+    height: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    color: #FFAF00;
+    padding: calc(100px);
+
+
+}
+
+#barao {
+
+    width: 899px;
+    height: 203px;
+    color: #A259F7;
+    border: 2px solid #A259F7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    main,footer {
+        display: none;
+    }
+
+    header nav {
+        position: fixed;
+        top: 60px;
+        left: 0%;
+        width: 80vw;
+        max-width: 360px;
+        height: 100vh;
+        border: 3px solid black;
+
+
+        flex-direction: column;
+        background-color: #F9003D;
+        justify-content: space-evenly;
+        align-items: center;
+
+        
+
+    }
+
+    header nav a {
+
+        width: 150px;
+        margin-bottom: 30px;
+        border-left: 2px solid black;
+        border-radius: 0px;
+        font-size: 24px;
+        
+    }
+
+    header #menu-burger {
+        display: block;
+    }
+
+}

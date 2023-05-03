@@ -1,0 +1,683 @@
+/* Imports de fonts */
+@font-face {
+    font-family: inter;
+    src: url(../assets/fontss/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: QuickSand;
+    src: url(../assets/fontss/Quicksand/OFL.txt)
+}
+@font-face {
+    font-family: QuickSand-regular;
+    src: url(../assets/fontss/Quicksand/static/Quicksand-Regular.ttf)
+}
+
+@font-face {
+    font-family: titillium_web;
+    src: url(../assets/fontss/Titillium_Web/OFL.txt);
+}
+
+@font-face {
+    font-family: titillium_web_black;
+    src: url(../assets/fontss/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: titillium_web_bold;
+    src: url(../assets/fontss/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/* reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* classes genericas */
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+/* classes genericas */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* classes genericas */
+.mostrar-menu {
+    left: 0 !important;
+}
+
+.mostrar-usuarios {
+    right: 0 !important;
+}
+
+
+body {
+    color: white;
+}
+
+
+/* header */
+header {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    z-index: 100;
+    background-color: #1B1426;
+    ;
+
+}
+
+
+header .header-top {
+    display: none;
+}
+
+header .menu {
+    display: none;
+}
+
+
+.header-bottom {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header .menu {
+    position: fixed;
+    top: 60px;
+    z-index: 101px;
+    left: -80vw;
+    height: calc(100vh - 60px);
+    width: 80vw;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+    display: flex;
+    flex-direction: column;
+
+    transition: left 0.7s;
+
+
+
+
+
+}
+
+header .header-bottom nav>a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #f9aa01;
+    padding: 30px 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: inter;
+    text-decoration: none;
+
+}
+
+header .header-bottom nav a:last-of-type {
+    border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais {
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+
+
+/* parte do segundo menu lateral */
+
+.menu-usuarios {
+    position: fixed;
+    top: 60px;
+    padding: 15px;
+    right: -15vw;
+    width: 15vw;
+    gap: 20px;
+    background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.9), rgba(27, 20, 38, 0.9));
+    backdrop-filter: blur(45px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: right 0.7s;
+
+}
+
+
+main {
+    height: 6400px;
+    width: 100%;
+    /* padding-top: 60px; */
+}
+
+
+
+
+main .banner {
+    background-image: url(../assets/images/banner.svg);
+    background-repeat: no-repeat;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 85px; */
+}
+
+
+
+section h1 {
+    color: white;
+    font-family: titillium_web_black;
+    font-size: 40px;
+    padding-top: 60px;
+    text-shadow: #fd4255 1px 0 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+section a {
+    background-color: #f9aa01;
+    color: #1B1426;
+    border-radius: 8px;
+    width: 171px;
+    height: 40px;
+    margin-bottom: 88px;
+    text-transform: capitalize;
+
+
+
+    font-family: titillium_web_bold;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    position: relative;
+    background-color: #1B1426;
+    height: 590px;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    background-color: #f9aa01;
+    height: 1535px;
+    width: 100%;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+section h2 {
+    color: #1B1426;
+    font-family: titillium_web_black;
+    font-size: 18px;
+    padding-bottom: 20px;
+
+}
+
+hr {
+    border: 2px solid #1B1426;
+    width: 204px;
+
+}
+
+article.personagem-um {
+    position: relative;
+    width: 314px;
+    height: 511px;
+    /* border: 1px solid #1B1426; */
+
+
+}
+
+.killjoy-img {
+
+    margin-top: 50px;
+
+}
+
+.killjoy {
+    position: absolute;
+    width: 231px;
+    height: 300px;
+    /* background-color: #1B1426; */
+    top: 135px;
+    right: 0;
+    background: linear-gradient(145.9deg, rgba(110, 49, 236, 0.2) 0%, rgba(45, 7, 109, 0.83));
+    backdrop-filter: blur(7.5px);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.killjoy  h3{
+    font-family: titillium_web_black;
+    font-size: 20px;
+    text-shadow: #C6A5E5 0px 0px 6px;
+    text-transform: uppercase;
+}
+
+div.killjoy p{
+    font-family: QuickSand-regular;
+    font-size: 13px;
+    text-align: justify;
+    padding: 8px;
+}
+
+main .noticias {
+    background-image: url(../assets/images/backgrund_notícias.png);
+    height: 3675px;
+
+    /* avaliar se o flex é necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticias .titulo {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticias .titulo h1 {
+    font-family: Titillium-Web-Black;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.noticias .titulo hr {
+    border-color: var(--cor-secundaria);
+    width: 50vw;
+}
+
+.noticia-flex {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticias .card-noticia {
+    height: 390px;
+    background-image: linear-gradient(to bottom right, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.79));
+    border-radius: 8px;
+    margin-top: 45px;
+}
+
+.card-noticia h3 {
+    padding: 0 20px;
+    color: white;
+    font-family: Titillium-Web-Bold;
+    font-size: 24px;
+}
+
+.card-noticia p {
+    padding: 0 20px;
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+}
+
+.card-noticia img { width: 100%; }
+
+
+footer {
+    height: 1230px;
+    background-image: url(../assets/images/backgroung_footer.png);
+    position: relative;
+    z-index: 10;
+}
+
+.footer-gradient {
+    position: absolute;
+    top: -3px;
+    z-index: 11;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(27, 20, 38, 0.1));
+}
+
+.footer-flex {
+    height: 100%;
+    padding: 60px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 12;
+}
+
+.footer-titulo, .footer-inicio, .redes-sociais,
+.links-uteis, .contatos, .newsletter {
+    width: 100%;
+}
+
+footer .footer-titulo h2 {
+    font-family: Titillium-Web-Black;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    color: white;
+}
+
+footer .footer-titulo hr {
+    border-bottom: 3px solid #f9aa01;
+    width: calc(100% / 3);
+    margin-bottom: 45px;
+}
+
+footer .footer-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    /* background-image: linear-gradient(from top to bottom right, rgba(27, 20, 38, 0.5), rgba(27, 20, 38, 0.1)); */
+}
+
+.footer-inicio .logo {
+    width: 130px;
+    height: 38px;
+}
+
+.footer-inicio p {
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+}
+
+footer .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .redes-sociais .rede-social-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f9aa01;
+}
+
+footer .links-uteis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-uteis .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 40px;
+}
+
+.links-uteis .link {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0 10px;
+}
+
+.links-uteis .link hr {
+    border: 1px solid #f9aa01;
+    width: 10px;
+    height: 1px;
+}
+
+.links-uteis .link p {
+    font-family: Titillium-Web;
+    font-size: 18px;
+}
+
+.contatos .contato {
+    font-family: Titillium-Web-Bold;
+    font-size: 17px;
+}
+
+.contato .contato-topico { color: #f9aa01; }
+.contato .contato-descricao { color: white; }
+
+
+footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter .newsletter-form {
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter-form .email-input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(239, 239, 239, 0.5), rgba(239, 239, 239, 0.2));
+}
+
+.newsletter-form .send-button {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #f9aa01;
+    font-family: Titillium-Web-Bold;
+    font-size: 24px;
+}
+
+.newsletter-form .email-input::placeholder {
+    color: white;
+    font-family: Titillium-Web;
+    font-size: 16px;
+}
+
+footer .copyright-text {
+    font-family: Titillium-Web;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets >= 768px */
+@media screen and (min-width: 768px) {}
+
+/* Desktop >= 1200px*/
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+
+    }
+
+    /* esconde os elementos desnecessários */
+    header .header-bottom .menu-hamburger,
+    header .header-bottom .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .email,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+
+    header {
+        position: static;
+        height: 140px;
+        width: 100%;
+    }
+
+    header .header-top {
+        display: block;
+        height: 50px;
+        border-bottom: 1px solid #f9aa01;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-top .contatos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 410px;
+    }
+
+    .header-top .contatos>div {
+        display: flex;
+        gap: 10px;
+        width: 200px;
+
+
+
+    }
+
+    header .header-top .midias-sociais {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 135px;
+
+    }
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        padding-bottom: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .header-bottom nav>a {
+        font-size: 14px;
+        padding: 0;
+        border: none;
+    }
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+
+    }
+
+    main {
+        height: 606px;
+        width: 100%;
+    }
+
+    main .banner {
+        background-image: url(../assets/images/Banner_background_1.png);
+        background-repeat: no-repeat;
+        height: calc(100vh - 60px);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+}
