@@ -58,7 +58,7 @@ switch (combustivel)
 
         Console.WriteLine($"Selecionou gasolina");
         
-    Console.WriteLine($"valo total: {(PrecoGasolina - desconto) * quantidade}");
+    Console.WriteLine($"valo total: {(PrecoGasolina - desconto) * quantidade} ");
 
         
         break;

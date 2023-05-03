@@ -13,3 +13,18 @@ C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\exercic
 C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\exercicio-6\obj\Debug\net7.0\exercicio-6.pdb
 C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\exercicio-6\obj\Debug\net7.0\exercicio-6.genruntimeconfig.cache
 C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\exercicio-6\obj\Debug\net7.0\ref\exercicio-6.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\bin\Debug\net7.0\exercicio-6.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\bin\Debug\net7.0\exercicio-6.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\bin\Debug\net7.0\exercicio-6.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\bin\Debug\net7.0\exercicio-6.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\bin\Debug\net7.0\exercicio-6.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\refint\exercicio-6.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\exercicio-6.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\lista-de-exercicios-4\Procurar nome\obj\Debug\net7.0\ref\exercicio-6.dll

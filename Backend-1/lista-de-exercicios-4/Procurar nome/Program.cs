@@ -5,9 +5,9 @@
 
 
 
-string[] nomes = new string [10];
+string[] nomes = new string [3];
 
-for (var i = 0; i < 10 ; i++)
+for (var i = 0; i < 3 ; i++)
 {
     
     Console.WriteLine($"Esse é o {i + 1}º nome");
@@ -26,6 +26,11 @@ if (nomes.Contains(NomeProcurado))
 }
 else
 {
-    Console.WriteLine($"nÃO ACHEI");
+    Console.WriteLine($"NÃO ACHEI");
     
 }
+     
+
+    
+    
+

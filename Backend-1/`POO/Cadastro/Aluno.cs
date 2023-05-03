@@ -24,44 +24,55 @@ namespace cadastro
         public bool bolsista;
         public float MediaFinal;
         public float ValorMensalidade;
-        public int Valor = 0;
         public float Desconto = 0;
 
+
+        
         public void VerMediaFinal()
         {
-            Console.WriteLine($"Sua media final:{MediaFinal}");
-
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine($"Sua media final:{this.MediaFinal}");
+            Console.ResetColor();
         }
 
         public float VerMensalidade()
         {
 
-            
-                    if (bolsista == true && MediaFinal >= 8)
-                    {
-                        Desconto = ValorMensalidade * 0.05f;
+            if (this.bolsista == true && this.MediaFinal >= 8)
+            {
+               this.Desconto = this.ValorMensalidade * 0.50f;
 
-                    }
-
-                    else if (bolsista == true && MediaFinal >= 6 || MediaFinal <= 8)
-
-                    {
-                        Desconto = ValorMensalidade * 0.03f;
-                    }
-
-                    else
-                    {
-                        Console.WriteLine($"Outro valor ");
-
-                    }
-                  
-                        return this.ValorMensalidade;
-
-                
             }
 
-      
+            else if (this.bolsista == true && this.MediaFinal >= 6)
+
+            {
+                this.Desconto = this.ValorMensalidade * 0.30f;
+            }
+
+            else if (this.bolsista == false || this.MediaFinal <= 5)
+            {
+                Console.WriteLine($"Sem Desconto");
+            }
+
+            else
+            {
+                Console.WriteLine($"Outro valor");
+
+            }
+            
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"Valor da sua mensalidade: {this.ValorMensalidade - this.Desconto}");
+            Console.ResetColor();
+            
+
+            return this.ValorMensalidade;
+
 
         }
 
+
+
     }
+
+}

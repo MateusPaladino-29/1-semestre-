@@ -18,26 +18,74 @@ using cadastro;
 
 Aluno novo = new Aluno();
 
+Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine($"Informe seu Nome:");
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Green;
 novo.Nome = Console.ReadLine()!;
+Console.ResetColor();
 
+Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine($"Informe o nome do seu curso:");
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Green;
 novo.Curso = Console.ReadLine()!;
+Console.ResetColor();
 
+Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine($"Informe sua idade:");
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Green;
 novo.Idade = int.Parse(Console.ReadLine()!);
+Console.ResetColor();
 
+Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine($"Informe o seu RG: ");
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Green;
 novo.RG = Console.ReadLine()!;
+Console.ResetColor();
 
+Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine($"Voce possui bolsa de estudos? true/false");
-novo.bolsista = bool.Parse(Console.ReadLine()!);
+Console.ResetColor();
 
+Console.ForegroundColor = ConsoleColor.Green;
+
+string resposta = Console.ReadLine()!.ToLower();
+// if (resposta == "Sim")
+// {
+//     novo.bolsista = true;
+// }
+// else
+// {
+//     novo.bolsista = false;
+// }
+
+// operador ternario para if else
+novo.bolsista = resposta == "Sim" ? true : false;
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine($"Informe o valor da sua Media final:");
-novo.MediaFinal = float.Parse(Console.ReadLine()!);
+Console.ResetColor();
 
+Console.ForegroundColor = ConsoleColor.Green;
+novo.MediaFinal = float.Parse(Console.ReadLine()!);
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine($"Informe o valor da Mensalidade:");
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Green;
 novo.ValorMensalidade = float.Parse(Console.ReadLine()!);
+Console.ResetColor();
+
 
 novo.VerMediaFinal();
 

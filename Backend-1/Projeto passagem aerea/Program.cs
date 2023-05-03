@@ -159,6 +159,9 @@ switch (menu)
 
 
     default:
+
+    Console.WriteLine($"opção indisponivel!");
+    
         break;
 }
 

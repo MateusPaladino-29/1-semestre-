@@ -2,7 +2,7 @@
 
 
 Console.WriteLine($"informe o primeiro numero");
-float n1 = float.Parse(Console.ReadLine());
+float n1 = float.Parse(Console.ReadLine());     
 
 Console.WriteLine($"informe o segundo numero");
 float n2 = float.Parse(Console.ReadLine());
