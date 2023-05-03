@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\bin\Debug\net7.0\quitanda.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\bin\Debug\net7.0\quitanda.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\bin\Debug\net7.0\quitanda.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\bin\Debug\net7.0\quitanda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\bin\Debug\net7.0\quitanda.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\refint\quitanda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\quitanda.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\quitanda\obj\Debug\net7.0\ref\quitanda.dll

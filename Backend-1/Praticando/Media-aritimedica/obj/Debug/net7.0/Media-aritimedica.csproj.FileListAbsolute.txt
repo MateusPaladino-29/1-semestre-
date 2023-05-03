@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\bin\Debug\net7.0\Media-aritimedica.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\bin\Debug\net7.0\Media-aritimedica.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\bin\Debug\net7.0\Media-aritimedica.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\bin\Debug\net7.0\Media-aritimedica.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\bin\Debug\net7.0\Media-aritimedica.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\refint\Media-aritimedica.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\Media-aritimedica.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Media-aritimedica\obj\Debug\net7.0\ref\Media-aritimedica.dll

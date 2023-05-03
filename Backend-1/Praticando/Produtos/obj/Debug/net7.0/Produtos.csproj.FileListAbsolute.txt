@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\bin\Debug\net7.0\Produtos.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\bin\Debug\net7.0\Produtos.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\bin\Debug\net7.0\Produtos.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\bin\Debug\net7.0\Produtos.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\bin\Debug\net7.0\Produtos.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\refint\Produtos.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\Produtos.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Produtos\obj\Debug\net7.0\ref\Produtos.dll
