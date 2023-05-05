@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\bin\Debug\net7.0\Elevador.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\bin\Debug\net7.0\Elevador.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\bin\Debug\net7.0\Elevador.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\bin\Debug\net7.0\Elevador.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\bin\Debug\net7.0\Elevador.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\refint\Elevador.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\Elevador.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\Praticando\ListaDeExercicio5\projetinho\obj\Debug\net7.0\ref\Elevador.dll
