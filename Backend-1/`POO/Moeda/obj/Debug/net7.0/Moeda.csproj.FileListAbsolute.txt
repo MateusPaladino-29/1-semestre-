@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\bin\Debug\net7.0\Moeda.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\bin\Debug\net7.0\Moeda.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\bin\Debug\net7.0\Moeda.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\bin\Debug\net7.0\Moeda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\bin\Debug\net7.0\Moeda.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\refint\Moeda.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\Moeda.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\`POO\Moeda\obj\Debug\net7.0\ref\Moeda.dll
