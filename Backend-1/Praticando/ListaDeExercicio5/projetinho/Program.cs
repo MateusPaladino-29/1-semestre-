@@ -19,3 +19,9 @@ Elevador Sistema = new Elevador();
 Sistema.Inicializa(10,7);
 
 Sistema.Entrar();
+
+Sistema.Subir(7);
+
+Sistema.Descer(7);
+
+Sistema.Saida();

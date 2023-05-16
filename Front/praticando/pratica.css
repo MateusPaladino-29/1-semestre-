@@ -1,0 +1,62 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+
+header {
+
+    position: fixed;
+    height: 130px;
+    width: 100vw;
+    z-index: 100;
+    background-image: url(../projeto-gamer/assets/images/backgroung_footer.png);
+    backdrop-filter: blur(45px);
+}
+
+.Todo > h1 {
+
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    text-shadow: #0fe4b6 1px 0 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Todo > p {
+
+    color:aliceblue;    
+    font-size: 25px;
+    font-family: cursive;
+    text-shadow: #0fe4b6 1px 0 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+   
+
+    padding-top: 10px;
+}
+

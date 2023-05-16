@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace projeto_Nome
+{
+    public class Usuario 
+    {
+        public int Codigo { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+        public DateTime DataCadastro { get; set; }
+
+        public string Cadastrar(Usuario _User)
+        {
+            Console.WriteLine($"Informe o seu nome");
+            Nome = Console.ReadLine()!;
+            
+            Console.WriteLine($"Informe seu email");
+            Email = Console.ReadLine()!;
+
+            Console.WriteLine($"Informe sua senha");
+            Senha = Console.ReadLine()!;
+
+            Console.WriteLine($"Informe o codigo de cadastro de sua preferencia");
+            Codigo = int.Parse(Console.ReadLine()!);
+            
+
+            DataCadastro = DateTime.UtcNow;
+
+            return "Cadastro efetuado com sucesso";
+                       
+        }
+
+        public string Deletar(Usuario _userDelete)
+
+        
+        {
+            Console.WriteLine($"Desejsa deletar o Cadastro atual? s(Sim) ou n(Não)");
+            char delete = char.Parse(Console.ReadLine()!.ToLower());
+
+            if (delete == 's')
+            {
+                
+                
+
+                
+            }
+            else
+            {
+                
+            }
+            
+
+        }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+}

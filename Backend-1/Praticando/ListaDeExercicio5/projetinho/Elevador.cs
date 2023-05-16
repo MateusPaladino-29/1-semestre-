@@ -35,7 +35,7 @@ namespace projetinho
 
             Console.WriteLine($"A capacidade de pessoas que cabem no elevador é de:{capacidade}");
 
-            Console.WriteLine($"A quantidade de andares é de {totalDeAndares}");
+            Console.WriteLine($"A quantidade de andares sáo de {totalDeAndares}");
 
         }
 
@@ -89,7 +89,7 @@ namespace projetinho
 
         {
 
-            saindo:
+           
 
             Console.WriteLine($"Quantidade de pessoa no elavador: {Quantidade}");
 
@@ -115,15 +115,103 @@ namespace projetinho
                     break;
 
                 default:
-                goto saindo;
                     break;
             }
-
-
-
-
-
         }
+
+           public void Subir( int TotalDeAndares)
+            
+           {
+
+            subindo:
+                Console.WriteLine($"Informe para qual andar deseja subir"); 
+                int subir = int.Parse(Console.ReadLine()!);
+
+                switch (subir)
+                {
+                    case 1:
+                    Console.WriteLine($"Subindo para o 1º "); 
+                        break;
+
+                         case 2:
+                    Console.WriteLine($"Subindo para o 2º "); 
+                        break;
+
+                         case 3:
+                    Console.WriteLine($"Subindo para o 3º "); 
+                        break;
+
+                         case 4:
+                    Console.WriteLine($"Subindo para o 4º "); 
+                        break;
+
+                         case 5:
+                    Console.WriteLine($"Subindo para o 5º "); 
+                        break;
+
+                         case 6:
+                    Console.WriteLine($"Subindo para o 6º "); 
+                        break;
+
+                         case 7:
+                    Console.WriteLine($"Subindo para o 7º "); 
+                        break;
+
+                    default:
+
+                    Console.WriteLine($"Não temos esse andar");
+                    goto subindo;
+                        break;
+                }
+                                
+           }
+
+            public void Descer( int TotalDeAndares)
+            
+           {
+
+            descer:
+                Console.WriteLine($"Informe para qual andar deseja descer"); 
+                int descer = int.Parse(Console.ReadLine()!);
+
+                switch (descer)
+                {
+                    case 6:
+                    Console.WriteLine($"Descendo para o 6º "); 
+                        break;
+
+                         case 5:
+                    Console.WriteLine($"Descendo para o 5º "); 
+                        break;
+
+                         case 4:
+                    Console.WriteLine($"Descendo para o 4º "); 
+                        break;
+
+                         case 3:
+                    Console.WriteLine($"Descendo para o 3º "); 
+                        break;
+
+                         case 2:
+                    Console.WriteLine($"descendo ara o 2º "); 
+                        break;
+
+                         case 1:
+                    Console.WriteLine($"Descendo para o 1º "); 
+                        break;
+
+                         case 0:
+                    Console.WriteLine($"Descendo para o terro "); 
+                        break;
+
+                    default:
+
+                    Console.WriteLine($"Não temos esse andar");
+                    goto descer;
+                        break;
+                }
+                                
+           }
     }
 }
 
