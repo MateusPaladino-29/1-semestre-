@@ -7,88 +7,72 @@ namespace projeto_Nome
 {
     public class Marca
     {
-        public Marca(string codigo, DateTime dateCadastro) 
-        {
-            this.Codigo = codigo;
-    this.DateCadastro = dateCadastro;
-   
-        }
-                public string Codigo { get; set; }
+        public int Codigo { get; set; }
         public string NomeMarca { get; set; }
         public DateTime DateCadastro { get; set; }
 
-        private string Cadastrar( Marca _cadastro)
+        List<Marca> ListaDeMarca = new List<Marca>();
+
+
+        Marca marca = new Marca();
+
+        public void Cadastrar()
         {
+           
 
-            codigo:
-            Console.WriteLine($"Informe o código do produto que deseja cadastrar");
-            Codigo = (Console.ReadLine()!); 
+            Console.WriteLine($"Informe o código da marca que deseja cadastrar");
+            Codigo = int.Parse(Console.ReadLine()!);
 
-            if (Codigo == Codigo)
+            Console.WriteLine($"Informe o nome da marca:");
+            NomeMarca = Console.ReadLine()!;
+
+            DateCadastro = DateTime.UtcNow;
+        }
+
+        // Pedir ajuda do professor para criar as listas pq faltei 
+        public void Listar()
+        {
+            foreach (var item in ListaDeMarca)
             {
-                Console.WriteLine($"codigo validado");
-                
+                Console.WriteLine(@$"       
+                Nome da marca: {item.NomeMarca}
+                Código da Marca: {item.Codigo}
+                Data de criação; {item.DateCadastro}     
+                ");
+
+            }
+        }
+
+        public void Deletar(int codigomarca)
+        {
+            Console.WriteLine($"Deseja deletar alguma marca? s/n");
+            char deletar = char.Parse(Console.ReadLine()!);
+
+            if (deletar == 's')
+            {
+
+                Marca M = ListaDeMarca.Find(x => x.Codigo == codigomarca);
+                ListaDeMarca.Remove(M);
+
+                Console.WriteLine($"Marca deletada da lista ");
             }
 
             else
             {
-                Console.WriteLine($"codigo invalido");
-                goto codigo;
+                Console.WriteLine($"Certo nao deletaremos nada");
+
             }
 
-            Console.WriteLine($"Informe o nome da marca:");
-            NomeMarca = Console.ReadLine()!;
-            
 
-            DateCadastro = DateTime.Now;
-          
-            return "Marca de Cadastro com Sucesso";  
-        }
-
-        // Pedir ajuda do professor para criar as listas pq faltei 
-        public string Listar(Marca _lista )
-        {
-            List<Marca> ListaDeMarca = new List<Marca>();
-
-            Marca M = new Marca();
-
-            ListaDeMarca.Add(M);
-            
-            return "Lista de Marcas" ; 
-        }
-
-
-        public string Deletar(Marca _listagem)
-        {
-            Console.WriteLine($"Deseja deletar alguma marca? sim/nao");
-            string deletar = Console.ReadLine()!;
-
-            List<Marca> ListaDeMarca = new List<Marca>();
-            
-            if (deletar == "sim")
-            {
-                
-                 
-                               
-                Console.WriteLine($"Marca deletada da lista ");  
-            }
-
-            else 
-            {
-                Console.WriteLine($"Certo nao detaremos nada");
-                
-            }   
-
-            return NomeMarca;        
         }
 
 
 
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
     }
 }

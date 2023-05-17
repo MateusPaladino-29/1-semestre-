@@ -13,7 +13,12 @@ namespace projeto_Nome
         public string Senha { get; set; }
         public DateTime DataCadastro { get; set; }
 
-        public string Cadastrar(Usuario _User)
+        public Usuario()
+        {
+          Cadastrar();
+        }
+
+        public void Cadastrar()
         {
             Console.WriteLine($"Informe o seu nome");
             Nome = Console.ReadLine()!;
@@ -26,44 +31,66 @@ namespace projeto_Nome
 
             Console.WriteLine($"Informe o codigo de cadastro de sua preferencia");
             Codigo = int.Parse(Console.ReadLine()!);
-            
-
+        
             DataCadastro = DateTime.UtcNow;
 
-            return "Cadastro efetuado com sucesso";
-                       
+
+            Console.WriteLine(@$"
+            
+            Nome: {Nome}
+
+            Email: {Email}
+
+            Senha: {Senha}
+
+            Codigo: {Codigo}
+
+            Data: {DataCadastro}
+            
+            ");
+            
+               
         }
 
-        public string Deletar(Usuario _userDelete)
-
+        public void Deletar()
         
         {
-            Console.WriteLine($"Desejsa deletar o Cadastro atual? s(Sim) ou n(Não)");
-            char delete = char.Parse(Console.ReadLine()!.ToLower());
-
-            if (delete == 's')
-            {
-                
-                
-
-                
-            }
-            else
-            {
-                
-            }
+            Console.WriteLine($"Deseja excluir seu cadastro? S(Sim) // N (Nao)");
+            char delete = char.Parse(Console.ReadLine()!.ToUpper());
             
 
-        }
+          if (delete == 'S')
+          {
 
-        
-        
-        
-        
-        
-        
-        
-        
+            Nome = "";
+
+            Email = "";
+
+            Senha = "";
+
+            Codigo = 0;
+            
+          }   
+
+          else
+          {
+              Console.WriteLine(@$"
+            
+            Nome: {Nome}
+
+            Email: {Email}
+
+            Senha: {Senha}
+
+            Codigo: {Codigo}
+
+            Data: {DataCadastro}
+            
+            ");
+            
+          }
+
+        }      
         
     }
 }
