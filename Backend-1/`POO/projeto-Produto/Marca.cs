@@ -9,43 +9,60 @@ namespace projeto_Nome
     {
         public int Codigo { get; set; }
         public string NomeMarca { get; set; }
-        public DateTime DateCadastro { get; set; }
-
+        public string CadastradoPor { get; set; }
+        public DateTime DataCadastro { get; set; }
         List<Marca> ListaDeMarca = new List<Marca>();
 
 
-        Marca marca = new Marca();
-
-        public void Cadastrar()
+        public void CadastrarMarca()
         {
-           
+            Marca marca = new Marca();
 
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine($"Informe o código da marca que deseja cadastrar");
-            Codigo = int.Parse(Console.ReadLine()!);
+            marca.Codigo = int.Parse(Console.ReadLine()!);
+            Console.ResetColor();
 
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine($"Informe o nome da marca:");
-            NomeMarca = Console.ReadLine()!;
+            marca.NomeMarca = Console.ReadLine()!;
+            Console.ResetColor();
 
-            DateCadastro = DateTime.UtcNow;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"Nome de quem esta cadastrando a marca:");
+            marca.CadastradoPor = Console.ReadLine()!;
+            Console.ResetColor();
+
+            DataCadastro = DateTime.UtcNow;
+
+            ListaDeMarca.Add(marca);
+
+      
         }
 
         // Pedir ajuda do professor para criar as listas pq faltei 
-        public void Listar()
+        public void ListarMarca()
         {
             foreach (var item in ListaDeMarca)
             {
-                Console.WriteLine(@$"       
-                Nome da marca: {item.NomeMarca}
-                Código da Marca: {item.Codigo}
-                Data de criação; {item.DateCadastro}     
+                Console.WriteLine(@$"
+                
+            Nome do produto: {item.NomeMarca}
+            Nome de quem esta cadastrando: {item.CadastradoPor}
+            Código do produto: {item.Codigo}
+            Data de cadastro: {item.DataCadastro}
+
                 ");
 
             }
+
         }
 
-        public void Deletar(int codigomarca)
+        public void DeletarMarca(int codigomarca)
         {
-            Console.WriteLine($"Deseja deletar alguma marca? s/n");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"Tem certeza que deseja deletar alguma marca? s/n");
+            Console.ResetColor();
             char deletar = char.Parse(Console.ReadLine()!);
 
             if (deletar == 's')
@@ -54,12 +71,16 @@ namespace projeto_Nome
                 Marca M = ListaDeMarca.Find(x => x.Codigo == codigomarca);
                 ListaDeMarca.Remove(M);
 
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine($"Marca deletada da lista ");
+                Console.ResetColor();
             }
 
             else
             {
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine($"Certo nao deletaremos nada");
+                Console.ResetColor();
 
             }
 

@@ -16,6 +16,8 @@ namespace projeto_Nome
         public Usuario()
         {
           Cadastrar();
+
+           Deletar();   
         }
 
         public void Cadastrar()
@@ -32,7 +34,7 @@ namespace projeto_Nome
             Console.WriteLine($"Informe o codigo de cadastro de sua preferencia");
             Codigo = int.Parse(Console.ReadLine()!);
         
-            DataCadastro = DateTime.UtcNow;
+            DataCadastro = DateTime.Now;
 
 
             Console.WriteLine(@$"
@@ -74,22 +76,10 @@ namespace projeto_Nome
 
           else
           {
-              Console.WriteLine(@$"
-            
-            Nome: {Nome}
-
-            Email: {Email}
-
-            Senha: {Senha}
-
-            Codigo: {Codigo}
-
-            Data: {DataCadastro}
-            
-            ");
-            
+              Console.WriteLine($"Tudo bem, contiaremos para o Login");
+              
           }
-
+          
         }      
         
     }

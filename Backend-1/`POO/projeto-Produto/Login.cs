@@ -32,10 +32,14 @@ namespace projeto_Nome
             if (EmailDigitado == usuario.Email && SenhaDigitada == usuario.Senha)
             {
                 this.Logado = true;
+                Console.WriteLine($"Login efetuado com sucesso");
+                
             }
             else
             {
                 this.Logado = false;
+                Console.WriteLine($"Falha ao executar Login");
+                
             }
         }
 
@@ -53,6 +57,8 @@ namespace projeto_Nome
 
         menu:
             // fazer menu
+
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(@$"
             MENUZINHO DO AMOR 
             **********************
@@ -67,14 +73,16 @@ namespace projeto_Nome
             [0] Sair do programa
 
             ");
-
+            Console.ResetColor();
+            
+            Console.WriteLine($"Escolha uma opção do nosso menu");           
             int opcao = int.Parse(Console.ReadLine()!);
 
             switch (opcao)
             {
                 case 1:
                     // Cadastrar produto; produto.Cadastrar 
-                    produto.Cadastrar();
+                    produto.CadastrarProduto();
 
                     goto menu;
                     // goto
@@ -82,7 +90,7 @@ namespace projeto_Nome
 
                 case 2:
                     // Listar produto: produto.listar
-                    produto.Listar();
+                    produto.ListarProduto();
                     goto menu;
 
                     // goto
@@ -94,7 +102,7 @@ namespace projeto_Nome
                     Console.WriteLine($"Informe o codigo da marca que deseja ser removido:");
                     int codigoproduto = int.Parse(Console.ReadLine()!);
 
-                    produto.Deletar(codigoproduto);
+                    produto.DeletarProduto(codigoproduto);
                     goto menu;
 
                     // goto
@@ -103,7 +111,7 @@ namespace projeto_Nome
                 case 4:
                     // cadastrar marca : marca.cadastrar()
 
-                    marca.Cadastrar();
+                    marca.CadastrarMarca();
                     goto menu;
 
                     // goto
@@ -112,7 +120,7 @@ namespace projeto_Nome
                 case 5:
                     // listar marcas: marca.Listar()
 
-                    marca.Listar();
+                    marca.ListarMarca();
                     goto menu;
 
                     // goto
@@ -123,7 +131,7 @@ namespace projeto_Nome
 
                     Console.WriteLine($"Informe o codigo da marca que deseja ser removido:");
                     int codigomarca = int.Parse(Console.ReadLine()!);
-                    marca.Deletar(codigomarca);
+                    marca.DeletarMarca(codigomarca);
                     goto menu;
 
                     // goto

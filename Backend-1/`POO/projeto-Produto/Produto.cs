@@ -14,34 +14,44 @@ namespace projeto_Nome
         public string CadastradoPor { get; set; }
         List<Produto> ListaDeProduto = new List<Produto>();
 
-        public void Cadastrar()
+
+
+        public void CadastrarProduto()
         {
+
+            Produto produto = new Produto();
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine($"Informe o Nome do produto");
-            NomeProduto = Console.ReadLine()!;
+            produto.NomeProduto = Console.ReadLine()!;
+            Console.ResetColor();
 
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine($"Informe o preço do produto");
-            Preco = int.Parse(Console.ReadLine()!);
+            produto.Preco = int.Parse(Console.ReadLine()!);
+            Console.ResetColor();
 
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine($"Infome o nome de quem esta cadastrando:");
-            CadastradoPor = Console.ReadLine()!;
+            produto.CadastradoPor = Console.ReadLine()!;
+            Console.ResetColor();
 
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine($"Informe o codigo do produto");
-            Codigo = int.Parse(Console.ReadLine()!);
+            produto.Codigo = int.Parse(Console.ReadLine()!);
+            Console.ResetColor();
 
 
-            DataCadastro = DateTime.UtcNow;
+            produto.DataCadastro = DateTime.UtcNow;
 
-            Console.WriteLine(@$"
-            
-            Nome do produto: {NomeProduto}
-            Preço do produto: {Preco}
-            Nome de quem esta cadastrando: {CadastradoPor}
-            Código do produto: {Codigo}
-            Data de cadastro: {DataCadastro}           
-            ");
+            ListaDeProduto.Add(produto);
+
         }
 
-        public void Listar()
+        public void ListarProduto()
         {
             foreach (var item in ListaDeProduto)
             {
@@ -51,15 +61,19 @@ namespace projeto_Nome
             Preço do produto: {item.Preco}
             Nome de quem esta cadastrando: {item.CadastradoPor}
             Código do produto: {item.Codigo}
+            Data de Criação do produto: {item.DataCadastro}
 
                 ");
 
             }
         }
 
-        public void Deletar(int codigoproduto)
+        public void DeletarProduto(int codigoproduto)
         {
-          Console.WriteLine($"Deseja deletar algum produto? s/n");
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine($"tem certeza que Deseja deletar algum produto? s/n");
+            Console.ResetColor();
             char deletar = char.Parse(Console.ReadLine()!);
 
             if (deletar == 's')
@@ -67,17 +81,22 @@ namespace projeto_Nome
 
                 Produto P = ListaDeProduto.Find(x => x.Codigo == codigoproduto);
                 ListaDeProduto.Remove(P);
-                
+
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine($"Marca deletada da lista ");
+                Console.ResetColor();
             }
 
             else
             {
+
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine($"Certo nao deletaremos nada");
+                Console.ResetColor();
 
             }
 
-           
+
         }
 
 
