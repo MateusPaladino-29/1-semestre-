@@ -7,11 +7,11 @@ namespace projeto_Nome
 {
     public class Produto
     {
-        public int Codigo { get; set; }
-        public string NomeProduto { get; set; }
-        public float Preco { get; set; }
-        public DateTime DataCadastro { get; set; }
-        public string CadastradoPor { get; set; }
+        public int Codigo { get; private set; }
+        public string NomeProduto { get; private set; }
+        public float Preco { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public string CadastradoPor { get; private set; }
         List<Produto> ListaDeProduto = new List<Produto>();
 
 

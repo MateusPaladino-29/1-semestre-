@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace projeto_Nome
 {
     public class Marca
     {
-        public int Codigo { get; set; }
-        public string NomeMarca { get; set; }
-        public string CadastradoPor { get; set; }
-        public DateTime DataCadastro { get; set; }
+        public int Codigo { get; private set; }
+        public string NomeMarca { get; private set; }
+        public string CadastradoPor { get; private set; }
+        public DateTime DataCadastro { get; private set; }
         List<Marca> ListaDeMarca = new List<Marca>();
 
 
@@ -37,7 +33,7 @@ namespace projeto_Nome
 
             ListaDeMarca.Add(marca);
 
-      
+
         }
 
         // Pedir ajuda do professor para criar as listas pq faltei 

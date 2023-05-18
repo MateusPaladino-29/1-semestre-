@@ -3,7 +3,7 @@ namespace projeto_Nome
 {
     public class Login
     {
-        public bool Logado { get; set; }
+        public bool Logado { get; private set; }
 
         // Construtor
         public Login()
