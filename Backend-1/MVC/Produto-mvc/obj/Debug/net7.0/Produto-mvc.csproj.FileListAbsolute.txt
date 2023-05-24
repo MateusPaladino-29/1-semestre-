@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\bin\Debug\net7.0\Produto-mvc.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\bin\Debug\net7.0\Produto-mvc.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\bin\Debug\net7.0\Produto-mvc.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\bin\Debug\net7.0\Produto-mvc.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\bin\Debug\net7.0\Produto-mvc.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\refint\Produto-mvc.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\Produto-mvc.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\Produto-mvc\obj\Debug\net7.0\ref\Produto-mvc.dll
