@@ -1,0 +1,15 @@
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\bin\Debug\net7.0\mvc-cadastro.exe
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\bin\Debug\net7.0\mvc-cadastro.deps.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\bin\Debug\net7.0\mvc-cadastro.runtimeconfig.json
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\bin\Debug\net7.0\mvc-cadastro.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\bin\Debug\net7.0\mvc-cadastro.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.csproj.AssemblyReference.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.AssemblyInfoInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.AssemblyInfo.cs
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.csproj.CoreCompileInputs.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\refint\mvc-cadastro.dll
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.pdb
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\mvc-cadastro.genruntimeconfig.cache
+C:\Users\53282675836\Desktop\1-semestre-\Backend-1\MVC\mvc-cadastro\obj\Debug\net7.0\ref\mvc-cadastro.dll
