@@ -5,6 +5,8 @@ Produto p = new Produto();
 
 ProdutoController controller = new ProdutoController();
 
-controller.ListarProduto();
 
+controller.CadastrarProduto();
+
+controller.ListarProduto();
 

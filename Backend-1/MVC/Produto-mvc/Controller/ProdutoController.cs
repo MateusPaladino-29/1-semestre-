@@ -14,13 +14,19 @@ namespace Produto_mvc.Controller
 
 
         // Metodo controlador para acessar a listagem de produtos cadastrados 
-         public void ListarProduto()
-         {
+        public void ListarProduto()
+        {
             List<Produto> produtos = produto.Ler();
 
-            produtoView.Listar(produtos );
-         }
-   
+            produtoView.Listar(produtos);
+        }
 
+        public void CadastrarProduto()
+        {
+            
+            Produto Produtinho = produtoView.Cadastrar();          
+            produto.Inserir(Produtinho);
+
+        }
     }
 }
