@@ -28,5 +28,14 @@ namespace Produto_mvc.Controller
             produto.Inserir(Produtinho);
 
         }
+
+         
+            
+         }
+
+
+
     }
-}
+
+   
+

@@ -6,6 +6,7 @@ Evento e = new Evento();
 
 EventoController controller = new EventoController();
 
+controller.MenuAmor();
 
 controller.CadastrarEVento();
 
