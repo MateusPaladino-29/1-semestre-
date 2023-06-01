@@ -12,12 +12,12 @@
     <input type="text" name="Nome">
 
     <label for="">Imagem</label>
-    <input type="text" name="Imagem">
+    <input type="File" name="Imagem">
 
     <button type="Submit">Cadastrar</button>
 
 
-</form> 
+</form>
 
 
 
@@ -36,9 +36,21 @@
             <tr>
                 <td>@equipe.IdEquipe</td>
                 <td>@equipe.Nome</td>
-                <td>@equipe.Imagem</td>
+
+                <td>
+                    <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da @equipe.Nome" width="50px">
+
+                </td>
+
+                <th>
+                    <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">Excluir</a>
+                </th>
+
+                <th>
+                    <a asp-area="" asp-controller="Equipe" asp-action="Editar1" asp-route-id="@equipe.IdEquipe">Editar</a>
+                </th>
             </tr>
         }
-        
+
     </tbody>
 </table>
