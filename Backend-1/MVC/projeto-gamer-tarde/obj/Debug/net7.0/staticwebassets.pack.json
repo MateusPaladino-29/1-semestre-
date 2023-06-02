@@ -13,20 +13,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\Acesso Portal EaD.pdf",
-      "PackagePath": "staticwebassets\\img\\Equipes\\Acesso Portal EaD.pdf"
-    },
-    {
       "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\Corinthians.jpg",
       "PackagePath": "staticwebassets\\img\\Equipes\\Corinthians.jpg"
+    },
+    {
+      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\Cruzeiro.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Cruzeiro.png"
     },
     {
       "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\SDJuazeirense.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\SDJuazeirense.png"
     },
     {
-      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\i.png",
-      "PackagePath": "staticwebassets\\img\\Equipes\\i.png"
+      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\Santos.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Santos.png"
+    },
+    {
+      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\Vasco.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Vasco.png"
+    },
+    {
+      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\curintia.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\curintia.png"
+    },
+    {
+      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\default.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\img\\Equipes\\time-de-atletismo-do-cruzeiro.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\time-de-atletismo-do-cruzeiro.jpg"
     },
     {
       "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\js\\site.js",

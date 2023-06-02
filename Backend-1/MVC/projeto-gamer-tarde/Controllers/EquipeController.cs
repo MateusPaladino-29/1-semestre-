@@ -32,7 +32,7 @@ namespace projeto_gamer_tarde.Controllers
 
             //retorna a view de equipe
             return View();
-        }
+        }   
 
         [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
@@ -68,7 +68,7 @@ namespace projeto_gamer_tarde.Controllers
 
             else
             {
-                novaEquipe.Imagem = "Padrao.png";
+                novaEquipe.Imagem = "default.png";
             }
 
             // Fim da logica de update
@@ -150,7 +150,7 @@ namespace projeto_gamer_tarde.Controllers
 
             else
             {
-                novaEquipe.Imagem = "Padrao.png";
+                novaEquipe.Imagem = "default.png";
             }
 
             Equipe equipe = c.Equipe.First(x => x.IdEquipe == e.IdEquipe);
