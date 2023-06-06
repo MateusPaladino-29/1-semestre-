@@ -7,9 +7,9 @@ namespace projeto_gamer_tarde.Models
     {
         [Key]
         public int IdJogador { get; set; }
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Senha { get; set; }
+        public string? Nome { get; set; }
+        public string? Email { get; set; }
+        public string? Senha { get; set; }
 
         [ForeignKey("Equipe")]
         public int IdEquipe { get; set; }

@@ -22,7 +22,7 @@ namespace projeto_gamer_tarde.Controllers
 
         Context c = new Context();
 
-        [Route("Listar")]//http://localhost/Jogador/Listar
+        [Route("Listar")]
         public IActionResult Index()
         {
             ViewBag.Jogador = c.Jogador.ToList();
@@ -31,37 +31,24 @@ namespace projeto_gamer_tarde.Controllers
             return View();
         }
 
-        // Cadastro
-
+        [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
         {
-            Jogador NovoJogador = new Jogador();
+            Jogador novoJogador = new Jogador();
 
-            NovoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
-            if (form.Files.Count > 0)
-            {
-                var file = form.Files[0];
+            c.Jogador.Add(novoJogador);
 
-                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Jogadores");
-
-                if (!Directory.Exists(folder))
-                {
-                    Directory.CreateDirectory(folder);
-                }
-
-                var path = Path.Combine(folder, file.FileName);
-
-                using (var stream = new FileStream(path, FileMode.Create))
-                {
-                    file.CopyTo(stream);
-                }
-
-                NovoJogador.
-            }
+            c.SaveChanges();
+            
 
             return LocalRedirect("~/Jogador/Listar");
         }
+    
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -69,6 +56,65 @@ namespace projeto_gamer_tarde.Controllers
             return View("Error!");
         }
 
+
+
+        [Route("Excluir/{id}")]
+        public IActionResult Excluir(int id)
+        {
+            Jogador j = c.Jogador.First(j => j.IdJogador == id);
+
+            c.Jogador.Remove(j);
+
+            c.SaveChanges();
+
+            return LocalRedirect("~/Jogador/Listar");
+        }
+
+        [Route("Editar/{id}")]
+
+        public IActionResult Editar(int id)
+        {
+            Jogador j = c.Jogador.First(j => j.IdJogador == id);
+
+            ViewBag.Equipe = c.Equipe.ToList();
+
+            ViewBag.Jogador = j;
+
+            return View("Edit");
+        }
+
+
+        [Route("Atualizar")]
+        public IActionResult Atualizar(IFormCollection form, Jogador j, Equipe e)
+        {
+
+            Jogador novojogador = new Jogador();
+
+            novojogador.IdJogador = int.Parse(form["IdJogador"].ToString());
+            novojogador.Nome = form["Nome"].ToString();
+            novojogador.Email = form["Email"].ToString();
+            novojogador.Senha = form["Senha"].ToString();
+            novojogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());       
+
+            novojogador.Nome = j.Nome;
+
+    
+            j.Nome = novojogador.Nome;
+            j.Email = novojogador.Email;
+            j.Senha = novojogador.Senha;
+            j.IdEquipe = novojogador.IdEquipe;
+
+
+
+            c.Jogador.Update(j);
+
+           c.SaveChanges();
+
+            return LocalRedirect("~/Jogador/Listar");
+
+
+
+        }
 
 
     }
