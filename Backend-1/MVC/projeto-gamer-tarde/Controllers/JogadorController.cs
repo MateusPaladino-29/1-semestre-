@@ -25,6 +25,8 @@ namespace projeto_gamer_tarde.Controllers
         [Route("Listar")]
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             ViewBag.Jogador = c.Jogador.ToList();
             ViewBag.Equipe = c.Equipe.ToList();
 
@@ -44,11 +46,11 @@ namespace projeto_gamer_tarde.Controllers
             c.Jogador.Add(novoJogador);
 
             c.SaveChanges();
-            
+
 
             return LocalRedirect("~/Jogador/Listar");
         }
-    
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -74,6 +76,8 @@ namespace projeto_gamer_tarde.Controllers
 
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             Jogador j = c.Jogador.First(j => j.IdJogador == id);
 
             ViewBag.Equipe = c.Equipe.ToList();
@@ -94,11 +98,11 @@ namespace projeto_gamer_tarde.Controllers
             novojogador.Nome = form["Nome"].ToString();
             novojogador.Email = form["Email"].ToString();
             novojogador.Senha = form["Senha"].ToString();
-            novojogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());       
+            novojogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
             novojogador.Nome = j.Nome;
 
-    
+
             j.Nome = novojogador.Nome;
             j.Email = novojogador.Email;
             j.Senha = novojogador.Senha;
@@ -108,7 +112,7 @@ namespace projeto_gamer_tarde.Controllers
 
             c.Jogador.Update(j);
 
-           c.SaveChanges();
+            c.SaveChanges();
 
             return LocalRedirect("~/Jogador/Listar");
 
