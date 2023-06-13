@@ -6,6 +6,13 @@
 
 <h2>Tela de Jogadores</h2>
 
+@if (ViewBag.UserName == null)
+{
+    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
+    
 <form method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
 
     <label for="">Nome</label>
@@ -74,3 +81,4 @@
         }
     </tbody>
 </table>
+}
