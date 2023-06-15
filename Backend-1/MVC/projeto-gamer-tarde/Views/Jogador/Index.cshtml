@@ -28,7 +28,7 @@
                 </div>
 
                 <input class="campo-entrada" type="number" id="id-equipe" placeholder="Digite o Id da sua equipe:">
-                <input class="campo-entrada" type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:">
+                <input class="campo-entrada" type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:" name="Nome">
                 
                 <select class="campo-entrada" id="equipe-select">
                     <option value="">Selecione uma Equipe</option>
@@ -37,8 +37,8 @@
                 </select>
                 
                 <input class="campo-entrada" type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:" name="Nome">
-                <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:" >
-                <input class="campo-entrada" type="password" id="senha" placeholder="Digite a Senha:">
+                <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:" name="Email" >
+                <input class="campo-entrada" type="password" id="senha" placeholder="Digite a Senha:" name="Senha">
                 <button type="submit">Cadastrar</button>
                 
                 
@@ -54,16 +54,27 @@
                         <th>Id</th>
                         <th>Nome</th>
                         <th>Email</th>
+                        <th>Equipe</th>
                         <th>&spades;</th>
                     </tr>
                 </thead>
                 <tbody>
                     
                     <tr>
-                        <td>1</td>
-                        <td>Eduardo</td>
-                        <td>eduardo@gmail.com</td>
-                        <td><img class="yellow-trash" src="./assets/trash.png" alt=""></td>
+                        <td>Jogador.IdJogador</td>
+                        <td>Jogador.Nome</td>
+                        <td>Jogador.Email</td>
+                        
+                        <td>                    
+                         <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jogador.IdJogador">
+                         <img class="yellow-trash" src="./assets/trash.png" alt="">
+                        </a>
+
+                         <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador">
+                           <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                         </a>
+
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -72,82 +83,3 @@
         </section>
     </main>
 
-
-<h2>Tela de Jogadores</h2>
-
-@if (ViewBag.UserName == null)
-{
-    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-}
-else
-{
-    
-<form method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
-
-    <label for="">Nome</label>
-    <input type="text" name="Nome">
-
-    <label for="">Email</label>
-    <input type="text" name="Email">
-
-    <label for="">Senha</label>
-    <input type="password" name="Senha">
-
-    <label for="">Equipe</label>
-    <input type="IdEquipe" name="IdEquipe">
-
-    <select name="IdEquipe" id="IdEquipe">
-
-        <option value="0">Selecione uma equipe:</option>
-
-        @foreach (Equipe equipe in ViewBag.Equipe)
-        {
-            <option value="@equipe.IdEquipe"> @equipe.Nome </option>
-        }
-
-    </select>
-
-
-
-    @* <label for="">Imagem</label>
-    <input type="File" name="Imagem"> *@
-
-    <button type="Submit">Cadastrar</button>
-
-
-</form>
-
-<table class="table table-striped table-responsive">
-    <thead>
-        <th>Id</th>
-        <th>Nome</th>
-        <th>Email</th>
-        <th>Equipe</th>
-    </thead>
-
-    <tbody>
-        @foreach (Jogador jogador in ViewBag.Jogador)
-        {
-            <tr>
-                <td>@jogador.IdJogador</td>
-                <td>@jogador.Nome</td>
-                <td>@jogador.Email</td>
-                <td>
-                    <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="Imagem da equipe @jogador.Equipe.Nome" width="50px">
-                </td>
-
-                <th>
-                    <a asp-area="" asp-controller="Jogador" asp-action="Excluir"
-                        asp-route-id="@jogador.IdJogador">Excluir</a>
-                </th>
-
-                <th>
-                    <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador">Editar</a>
-                </th>
-
-
-            </tr>
-        }
-    </tbody>
-</table>
-}
