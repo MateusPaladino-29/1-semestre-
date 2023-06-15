@@ -257,6 +257,10 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\css\\jogadores.css",
+      "PackagePath": "staticwebassets\\css\\jogadores.css"
+    },
+    {
       "Id": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },

@@ -4,28 +4,141 @@
     ViewData["Title"] = "Edit";
 }
 
+<link rel="stylesheet" href="~/css/equipes.css">
+
+
+
+
+<!-- MAIN -->
+<main>
+
+    <section class="container-grid cadastro-equipes">
+
+
+        @if (ViewBag.UserName == null)
+        {
+            <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+        }
+
+        else
+        {
+
+
+            <form  class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+                <div class="cadequipe-titulo">
+                    <h1>Edição de Equipes</h1>
+                    <hr>
+                </div>
+
+                <input class="campo-entrada" type="hidden" value="@ViewBag.Equipe.IdEquipe" id="idEquipe"
+                    placeholder="Digite o Id da sua equipe:" name="IdEquipe">
+
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome"
+                    value="@ViewBag.Equipe.Nome" required>
+                <label class="foto" for="foto-file">
+                    Nenuma imagem selecionada...
+                    <input type="file" id="foto-file" valeu="@ViewBag.Equipe.Imagem" name="Imagem">
+                </label>
+
+                <button type="Submit">Atualizar</button>
+
+
+
+                @* <!-- <select class="equipeid" id="equipeid">
+            <option value="">Selecione uma Equipe</option>
+            <option value="x">Equipe X</option>
+            <option value="y">Equipe Y</option>
+            </select> --> *@
+            </form>
+
+            <!-- TABELA CADASTRO DE EQUIPES -->
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Imagem</th>
+                        <th>Ações;</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @* @foreach (Equipe equipe in ViewBag.Equipe)
+                    {
+
+                        <tr>
+
+                            <td>@equipe.IdEquipe</td>
+                            <td>@equipe.Nome</td>
+
+
+                            <td>
+                                <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da @equipe.Nome" width="50px">
+                            </td>
+
+                            <td>
+                                <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">
+                                    <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                                </a>
+
+                                <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe">
+                                    <img class="yellow-trash" src="~/assets/Edit.svg" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    } *@
+                </tbody>
+            </table>
+        }
+
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+
+
 <h2>Edição de Equipes</h2>
 
 @if (ViewBag.UserName == null)
 {
-    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+<a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
 }
 else
 {
 <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-    <input type="hidden" name = "IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+<input type="hidden" name = "IdEquipe" value="@ViewBag.Equipe.IdEquipe">
 
-    <label for="">Nome</label>
-    <input type="text" name = "Nome" valeu="@ViewBag.Equipe.IdEquipe">
+<label for="">Nome</label>
+<input type="text" name = "Nome" valeu="@ViewBag.Equipe.IdEquipe">
 
-    <label for=""></label>
-    <input type="File" name = "Imagem" value="@ViewBag.Equipe.Imagem">
+<label for=""></label>
+<input type="File" name = "Imagem" value="@ViewBag.Equipe.Imagem">
 
-    <button type="submit">Atualizar</button>
+<button type="submit">Atualizar</button>
 
 
 </form>
-    
-}
 
+}
+*@

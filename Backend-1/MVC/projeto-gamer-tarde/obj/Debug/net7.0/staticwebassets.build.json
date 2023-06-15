@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "owP/EX4u3S7Kt/1LqeZLEE6HQrVKuK+AFkF3WpDULWE=",
+  "Hash": "wy9EauStBPnADnIIm35NP6JpX62tpxjW5ORHLEo86jc=",
   "Source": "projeto-gamer-tarde",
   "BasePath": "_content/projeto-gamer-tarde",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\css\\jogadores.css",
+      "SourceId": "projeto-gamer-tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-tarde",
+      "RelativePath": "css/jogadores.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jogadores.css"
     },
     {
       "Identity": "C:\\Users\\53282675836\\Desktop\\1-semestre-\\Backend-1\\MVC\\projeto-gamer-tarde\\wwwroot\\css\\login.css",
