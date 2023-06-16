@@ -89,37 +89,32 @@ namespace projeto_gamer_tarde.Controllers
 
 
         [Route("Atualizar")]
-        public IActionResult Atualizar(IFormCollection form, Jogador j, Equipe e)
+        public IActionResult Atualizar(IFormCollection form)
         {
+            Jogador novoJogador = new Jogador();
 
-            Jogador novojogador = new Jogador();
+            novoJogador.IdJogador = int.Parse(form["IdJogador"].ToString());
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
-            novojogador.IdJogador = int.Parse(form["IdJogador"].ToString());
-            novojogador.Nome = form["Nome"].ToString();
-            novojogador.Email = form["Email"].ToString();
-            novojogador.Senha = form["Senha"].ToString();
-            novojogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == novoJogador.IdJogador);
 
-            novojogador.Nome = j.Nome;
+            jogadorBuscado.Nome = novoJogador.Nome;
+            jogadorBuscado.Email = novoJogador.Email;
+            jogadorBuscado.Senha = novoJogador.Senha;
+            jogadorBuscado.IdEquipe = novoJogador.IdEquipe;
 
-
-            j.Nome = novojogador.Nome;
-            j.Email = novojogador.Email;
-            j.Senha = novojogador.Senha;
-            j.IdEquipe = novojogador.IdEquipe;
-
-
-
-            c.Jogador.Update(j);
-
+            c.Jogador.Update(jogadorBuscado);
             c.SaveChanges();
 
             return LocalRedirect("~/Jogador/Listar");
-
-
-
         }
 
 
     }
+
+
+
 }

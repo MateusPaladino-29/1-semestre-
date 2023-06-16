@@ -7,81 +7,56 @@
 <link rel="stylesheet" href="~/css/jogadores.css">
 
 
-    <!-- MAIN -->
-    <main>
+<!-- MAIN -->
+<main>
 
-        <section class="container-grid cadastro-equipes">
+    <section class="container-grid cadastro-equipes">
 
-            @if (ViewBag.UserName == null)
+        @if (ViewBag.UserName == null)
         {
-             <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
         }
 
         else
         {
-           
+
             <form class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
                 <div class="cadequipe-titulo">
-                    <h1>Cadastro de Jogadores</h1>
+                    <h1>Edição de Jogadores</h1>
                     <hr>
                 </div>
 
-                <input class="campo-entrada" type="hidden" id="id-equipe" placeholder="Digite o Id da sua equipe:" name="IdEquipe">
-                <input class="campo-entrada" type="hidden" id="nome-equipe" placeholder="Digite o nome da sua equipe:" name="Nome">
-@*                 
-                <select class="campo-entrada" id="equipe-select">
-                    <option value="">Selecione uma Equipe</option>
-                    <option value="x">Equipe X</option>
-                    <option value="y">Equipe Y</option>
+                <input type="hidden" value="@ViewBag.Jogador.IdJogador" name="IdJogador">
+
+                <input class="campo-entrada" type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:"
+                    name="Nome" value="@ViewBag.Jogador.Nome">
+                <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:"
+                    name="Email" value="@ViewBag.Jogador.Email">
+                <input class="campo-entrada" type="password" id="senha" placeholder="Digite a Senha:" name="Senha"
+                    value="@ViewBag.Jogador.Senha">
+
+                <select class="campo-entrada" name="IdEquipe" id="IdEquipe">
+                    <option value="0">Selecione: </option>
+                    @foreach (Equipe item in ViewBag.Equipe)
+                    {
+                        @if (item.IdEquipe == ViewBag.Jogador.IdEquipe)
+                        {
+                            <option value="@item.IdEquipe" selected>@item.Nome</option>
+                        }
+                        else
+                        {
+                            <option value="@item.IdEquipe">@item.Nome</option>
+                        }
+                    }
                 </select>
-                 *@
-                 
-                <input class="campo-entrada" type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:" name="Nome">
-                <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:" name="Email" >
-                <input class="campo-entrada" type="password" id="senha" placeholder="Digite a Senha:" name="Senha">
+
+
                 <button type="submit">Atualizar</button>
-                
-                
-                
-                
+
             </form>
-
-            @* <!-- TABELA CADASTRO DE EQUIPES -->
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Nome</th>
-                        <th>Email</th>
-                        <th>Equipe</th>
-                        <th>&spades;</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                    <tr>
-                        <td>Jogador.IdJogador</td>
-                        <td>Jogador.Nome</td>
-                        <td>Jogador.Email</td>
-                        
-                        <td>                    
-                         <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jogador.IdJogador">
-                         <img class="yellow-trash" src="./assets/trash.png" alt="">
-                        </a>
-
-                         <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador">
-                           <img class="yellow-trash" src="~/assets/trash.png" alt="">
-                         </a>
-
-                        </td>
-                    </tr>
-                </tbody>
-            </table> *@
-
-            }
-        </section>
-    </main>
+        }
+    </section>
+</main>
 
 
 
@@ -124,52 +99,52 @@
 
 
 
-
+@*
 
 <h2>Edição de Jogadores</h2>
 
 @if (ViewBag.UserName == null)
 {
-    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+<a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
 }
 else
 {
-    
-<form  method="post" action="@Url.Action("Atualizar")">
 
-    <input type="hidden" name = "IdJogador" value="@ViewBag.Jogador.IdJogador">
+<form method="post" action="@Url.Action("Atualizar")">
 
-    <label for="">Nome</label>
-    <input type="text" name = "Nome" valeu="@ViewBag.Jogador.Nome">
+<input type="hidden" name = "IdJogador" value="@ViewBag.Jogador.IdJogador">
 
-    <label for="">Email</label>
-    <input type="email" name = "Email" valeu="@ViewBag.Jogador.Email">
+<label for="">Nome</label>
+<input type="text" name = "Nome" valeu="@ViewBag.Jogador.Nome">
 
-    <label for="">Senha</label>
-    <input type="password" name = "Senha" valeu="@ViewBag.Jogador.Senha">
+<label for="">Email</label>
+<input type="email" name = "Email" valeu="@ViewBag.Jogador.Email">
 
-    <label for="">Equipe</label>
-    <select name="IdEquipe" id="IdEquipe">
+<label for="">Senha</label>
+<input type="password" name = "Senha" valeu="@ViewBag.Jogador.Senha">
 
-        <option value="0">Selecione uma equipe:</option>
+<label for="">Equipe</label>
+<select name="IdEquipe" id="IdEquipe">
 
-        @foreach (Equipe equipe in ViewBag.Equipe)
-        {
-            @if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
-            {
-                 <option value="@equipe.IdEquipe" selected> @equipe.Nome </option>
-            }
+<option value="0">Selecione uma equipe:</option>
 
-            else
-            {
-                <option value="@equipe.IdEquipe" selected> @equipe.Nome </option>
-            }
+@foreach (Equipe equipe in ViewBag.Equipe)
+{
+@if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
+{
+<option value="@equipe.IdEquipe" selected> @equipe.Nome </option>
+}
 
-        }
+else
+{
+<option value="@equipe.IdEquipe" selected> @equipe.Nome </option>
+}
 
-    </select>
+}
 
-    <button type="submit">Atualizar</button>
+</select>
+
+<button type="submit">Atualizar</button>
 
 </form>
-}
+} *@
