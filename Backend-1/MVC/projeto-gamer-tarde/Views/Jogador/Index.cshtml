@@ -27,11 +27,15 @@
                     <hr>
                 </div>
 
-                <input class="campo-entrada" type="number" id="id-equipe" placeholder="Digite o Id da sua equipe:"
-                    name="IdEquipe">
+                <select class="campo-entrada" name="IdEquipe" id="IdEquipe" id="equipe-select">
+                    <option value="0">Selecione: </option>
+                    @foreach (Equipe item in ViewBag.Equipe)
+                    {
+                        <option style="color: black" value="@item.IdEquipe">@item.Nome</option>
+                    }
+                </select>
 
-                <input class="campo-entrada" type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:"
-                    name="Nome" required>
+                @* <input class="campo-entrada" type="text" id="nome-equipe" name="Nome" required> *@
 
                 <input class="campo-entrada" type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:"
                     name="Nome" required>

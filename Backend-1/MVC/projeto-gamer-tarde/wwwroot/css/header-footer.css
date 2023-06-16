@@ -1,4 +1,5 @@
-/* Mobile first */
+/* MOBILE FIRST */
+
 
 /********************* Header *********************/
 header {
@@ -178,12 +179,10 @@ header .icons-header img {
 }
 
 
-/*************************** Footer ****************************/
-
+/********************* Footer *********************/
 footer {
     padding: 40px 20px;
     background-color: #1B1426;
-    /* background-repeat: no-repeat; */
     background-image: url(../images/backgroung_footer.png);
     box-shadow: inset 0 30px 60px rgba(0, 0, 0, 0.8);
 }
@@ -354,8 +353,8 @@ footer #copyright {
 
 
 
-/****************** Medias Queries ****************/
-
+/* MEDIAS QUERIES */
+/* Desktop */
 @media screen and (min-width: 992px) {
 
 
@@ -464,6 +463,9 @@ footer #copyright {
         /* border: 1px solid red; */
     }
 
+
+    /* Footer */
+
     footer .footer-flex {
         flex-direction: row;
         align-items: flex-start;
@@ -493,5 +495,6 @@ footer #copyright {
         flex-direction: column;
         width: 100%;
     }
-}
 
+
+}
